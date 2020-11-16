@@ -177,7 +177,7 @@ ul#menu li.selected
   background: #00C6F0 url(tab_selected.png) no-repeat 0 0;}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
-{ background: #00C6F0 url(tab_selected.png) no-repeat 100% 0;
+{ /*background: #00C6F0*/ url(tab_selected.png) no-repeat 100% 0;
   color: #FFF;}
 
 ul#menu li a:hover
