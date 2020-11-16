@@ -98,7 +98,7 @@ ol li
   margin-right: auto;}
 
 #header
-{ background: #323534 url(back.png) repeat-x;
+{ background: #4b4b4b url(back.png) repeat-x;
   height: 177px;}
   
 #banner
@@ -132,7 +132,7 @@ ol li
   text-decoration: none;}
 
 #logo_text h1 a .logo_colour
-{ color: #E4EC04;}
+{ color: #2b8cbe;}
 
 #logo_text a:hover .logo_colour
 { color: #FFF;}
