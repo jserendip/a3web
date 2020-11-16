@@ -166,7 +166,7 @@ ul#menu li a
   text-align: center;
   color: #FFF;
   text-decoration: none;
-  background: #5A5A5A /*url(tab.png)*/ no-repeat 100% 0;} 
+  background: #5A5A5A no-repeat 100% 0;} 
 
 ul#menu li.selected a
 { height: 20px;
