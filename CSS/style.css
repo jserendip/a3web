@@ -1,7 +1,7 @@
 html
 { height: 100%;}
 
-*
+
 { margin: 0;
   padding: 0;}
 
@@ -105,6 +105,9 @@ ol li
 {  background: transparent url(../images/torontoskyline2.png) no-repeat;
   width: 860px;
   height: 180px;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
   margin-bottom: 20px;
   border: 10px solid #e0f3db;}
 
@@ -174,7 +177,7 @@ ul#menu li.selected a
 
 ul#menu li.selected
 { margin: 1px 2px 0 0;
-  background: #00C6F0 url(tab_selected.png) no-repeat 0 0;}
+  background: #5A5A5A url(tab_selected.png) no-repeat 0 0;}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
 { /*background: #00C6F0*/ url(tab_selected.png) no-repeat 100% 0;
@@ -184,11 +187,12 @@ ul#menu li a:hover
 { color: #a8ddb5;}
 
 #site_content
-{ width: 880px;
+{ width: 100%;
   overflow: hidden;
   margin: 20px auto 0 auto;
-  padding: 0 0 10px 0;} 
-
+  padding: 0 0 10px 0;
+  padding-bottom: 80px;} 
+/*
 #sidebar_container
 { float: right;
   width: 224px;}
@@ -220,6 +224,8 @@ ul#menu li a:hover
 .sidebar ul
 { margin: 0;} 
 
+*/
+
 #content
 { text-align: left;
   width: 620px;
@@ -237,13 +243,15 @@ ul#menu li a:hover
   line-height: 1.5em;}
 
 #footer
-{ width: 100%;
+{ position: absolute;
+  bottom:0;
+  width: 100%;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
   height: 80px;
   padding: 28px 0 5px 0;
   text-align: center; 
-  background: #3B3939 url(footer.png) repeat-x;
+  background: #3B3939 repeat-x;
   color: #A8AA94;}
 
 #footer p
