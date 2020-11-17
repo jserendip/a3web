@@ -136,8 +136,6 @@ ol li
 
 #logo_text h1 a .logo_colour /* Changed by David @ 12:48 11/17/20 */
 { color: #7bccc4 ;}
-#logo_text h1 a .logo_colour
-{ color: #2b8cbe;}
 
 #logo_text a:hover .logo_colour
 { color: #FFF;}
