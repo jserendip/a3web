@@ -130,12 +130,12 @@ ol li
 
 #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
 { padding: 22px 0 0 0;
-  color: #a8ddb5;
+  color: #2b8cbe;
   letter-spacing: 0.1em;
   text-decoration: none;}
 
 #logo_text h1 a .logo_colour
-{ color: #E4EC04;}
+{ color: #7bccc4 ;}
 
 #logo_text a:hover .logo_colour
 { color: #FFF;}
