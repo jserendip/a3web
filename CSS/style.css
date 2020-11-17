@@ -182,13 +182,14 @@ ul#menu li.selected a, ul#menu li.selected a:hover
 
 ul#menu li a:hover
 { color: #a8ddb5;}
-/*
+
 #site_content
-{ width: 880px;
+{ width: 100%;
   overflow: hidden;
   margin: 20px auto 0 auto;
-  padding: 0 0 10px 0;} 
-
+  padding: 0 0 10px 0;
+  padding-bottom: 80px;} 
+/*
 #sidebar_container
 { float: right;
   width: 224px;}
@@ -239,7 +240,8 @@ ul#menu li a:hover
   line-height: 1.5em;}
 
 #footer
-{ position: fixed;
+{ position: absolute;
+  bottom:0;
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
