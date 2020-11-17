@@ -1,7 +1,7 @@
 html
 { height: 100%;}
 
-*
+
 { margin: 0;
   padding: 0;}
 
@@ -182,7 +182,7 @@ ul#menu li.selected a, ul#menu li.selected a:hover
 
 ul#menu li a:hover
 { color: #a8ddb5;}
-
+/*
 #site_content
 { width: 880px;
   overflow: hidden;
@@ -220,6 +220,8 @@ ul#menu li a:hover
 .sidebar ul
 { margin: 0;} 
 
+*/
+
 #content
 { text-align: left;
   width: 620px;
@@ -243,7 +245,7 @@ ul#menu li a:hover
   height: 80px;
   padding: 28px 0 5px 0;
   text-align: center; 
-  background: #3B3939 url(footer.png) repeat-x;
+  background: #3B3939 repeat-x;
   color: #A8AA94;}
 
 #footer p
