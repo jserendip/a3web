@@ -239,7 +239,8 @@ ul#menu li a:hover
   width: 620px;
   padding: 0 0 0 5px;
   float: left;}
-  
+
+/*  
 #content ul
 { margin: 2px 0 22px 0px;}
 
@@ -249,6 +250,7 @@ ul#menu li a:hover
   margin: 0 0 0 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
+*/
 
 #footer
 { position: fixed;
