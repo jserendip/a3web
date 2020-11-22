@@ -110,6 +110,15 @@ ol li
   margin-bottom: 20px;
   border: 10px solid #e0f3db;}
 
+/*  
+#satimage
+{ background: transparent url(../images/ricelakeuncorrected.jpg) no-repeat;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }  */
+
 #logo
 { width: 880px;
   position: relative;
