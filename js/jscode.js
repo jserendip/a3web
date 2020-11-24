@@ -20,7 +20,7 @@ function oldimage()  {
 window.onscroll = function() {myFunction()};
 
 // Get the header
-var header = document.getElementById("Header");
+var header = document.getElementById("header");
 
 // Get the offset position of the navbar
 var stickyheader = header.offsetTop;
