@@ -110,6 +110,15 @@ ol li
   margin-bottom: 20px;
   border: 10px solid #e0f3db;}
 
+/*  
+#satimage
+{ background: transparent url(../images/ricelakeuncorrected.jpg) no-repeat;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }  */
+
 #logo
 { width: 880px;
   position: relative;
@@ -230,7 +239,8 @@ ul#menu li a:hover
   width: 620px;
   padding: 0 0 0 5px;
   float: left;}
-  
+
+/*  
 #content ul
 { margin: 2px 0 22px 0px;}
 
@@ -240,6 +250,7 @@ ul#menu li a:hover
   margin: 0 0 0 0; 
   padding: 0 0 4px 25px;
   line-height: 1.5em;}
+*/
 
 #footer
 { position: fixed;
@@ -247,8 +258,8 @@ ul#menu li a:hover
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
-  height: 80px;
-  padding: 28px 0 5px 0;
+  height: 56px;
+  padding: 3px 0 3px 0;
   text-align: center; 
   background: #3B3939 repeat-x;
   color: #A8AA94;}
