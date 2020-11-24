@@ -16,7 +16,7 @@ function oldimage()  {
 	document.getElementById("satimage").src="images/ricelakeuncorrected.JPG";
 	}
 // This code is adapted from https://www.w3schools.com/howto/howto_js_sticky_header.asp
-// When the user scrolls the page, execute myFunction
+// When the user scrolls the page, execute myFunction .Edyn Hillman 11.24
 window.onscroll = function() {myFunction()};
 
 // Get the header
