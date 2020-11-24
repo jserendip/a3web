@@ -258,14 +258,14 @@ ul#menu li a:hover
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
-  height: 56px;
-  padding: 3px 0 3px 0;
+  height: 54px;
+  padding: 0px 0 0px 0;
   text-align: center; 
   background: #3B3939 repeat-x;
   color: #A8AA94;}
 
 #footer p
-{ line-height: 1.7em;
+{ line-height: 0.4em;
   padding: 0 0 10px 0;}
 
 #footer a
