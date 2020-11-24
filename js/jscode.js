@@ -15,4 +15,21 @@ function newimage()  {
 function oldimage()  {
 	document.getElementById("satimage").src="images/ricelakeuncorrected.JPG";
 	}
-	
+// This code is adapted from https://www.w3schools.com/howto/howto_js_sticky_header.asp
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("header");
+
+// Get the offset position of the navbar
+var stickyheader = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("stickyHeader");
+  } else {
+    header.classList.remove("stickyHeader");
+  }
+}
