@@ -240,6 +240,11 @@ ul#menu li a:hover
   padding: 0 0 0 5px;
   float: left;}
 
+/* David Census image change 11-24 @ 2:10 */
+.census {
+    float: right
+}
+
 /*  
 #content ul
 { margin: 2px 0 22px 0px;}
