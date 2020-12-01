@@ -250,7 +250,11 @@ ul#menu li a:hover
 { text-align: left;
   width: 620px;
   padding: 0 0 0 5px;
-  float: right;}
+  float: left;
+  }
+
+.contentp1
+{ float: right;}
 
 /* David Census image change 11-24 @ 2:10 */
 .census {
