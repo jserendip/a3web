@@ -97,7 +97,8 @@ ol li
   margin-right: auto;}
 
 #header
-{ background: #4b4b4b url(back.png) repeat-x;
+{ position: fixed;
+  background: #4b4b4b url(back.png) repeat-x;
   height: 177px;}
 
 /* This code has been adapted from https://www.w3schools.com/howto/howto_js_sticky_header.asp.Edyn Hillman 11.24 */
@@ -166,8 +167,7 @@ ol li
   color: #a8ddb5;}
 
 #menubar
-{ position: fixed;
-  width: 880px;
+{ width: 880px;
   height: 46px;} 
 
 ul#menu
