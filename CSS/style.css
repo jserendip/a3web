@@ -194,9 +194,8 @@ ul#menu li a:hover
 #site_content
 { width: 100%;
   overflow: hidden;
-  margin: 20px auto 0 auto;
-  padding: 0 0 10px 0;
-  padding-bottom: 80px;} 
+  padding: 180px 0 90px 0;
+} 
 
 /* David editing page format 12/01/20 */
 #content
@@ -215,7 +214,7 @@ ul#menu li a:hover
 .contentp2img1 {
   float:left;
 }
-
+/* Edyn footer position and text padding change 12-01 */
 #footer
 { position: static;
   bottom:0;
@@ -230,7 +229,7 @@ ul#menu li a:hover
 
 #footer p
 { line-height: 0.4em;
-  padding: 0 0 5px 0;}
+  padding: 10px 0 5px 0px;}
 
 #footer a
 { color: #A8AA94;
