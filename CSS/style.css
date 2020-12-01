@@ -222,7 +222,7 @@ ul#menu li a:hover
 .contentp2img1 {
   float:left;
 }
-
+/* Edyn footer position and text padding change 12-01 */
 #footer
 { position: static;
   bottom:0;
