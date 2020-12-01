@@ -202,6 +202,7 @@ ul#menu li a:hover
 { text-align: left;
   padding: 0 0 0 10px;
   float: left;
+  width: 100%;
   }
 
 .contentp1
@@ -213,9 +214,7 @@ ul#menu li a:hover
 .contentp2 {
     float: right;
 }
-.contentp2txt1 {
-  float:left;
-}
+
 /* Edyn footer position and text padding change 12-01 */
 #footer
 { position: static;
