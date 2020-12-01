@@ -224,7 +224,7 @@ ul#menu li a:hover
 }
 
 #footer
-{ position: fixed;
+{ position: static;
   bottom:0;
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
@@ -237,7 +237,7 @@ ul#menu li a:hover
 
 #footer p
 { line-height: 0.4em;
-  padding: 0 0 10px 0;}
+  padding: 0 0 5px 0;}
 
 #footer a
 { color: #A8AA94;
