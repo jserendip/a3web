@@ -100,15 +100,15 @@ ol li
 { background: #4b4b4b url(back.png) repeat-x;
   height: 177px;}
 
-/* This code has been adapted from https://www.w3schools.com/howto/howto_js_sticky_header.asp */
+/* This code has been adapted from https://www.w3schools.com/howto/howto_js_sticky_header.asp.Edyn Hillman 11.24 */
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .stickyHeader {
   position: fixed;
   top: 0;
   width: 100%}
-  
+
 /* This code has been adapted from https://www.w3schools.com/howto/howto_js_sticky_header.asp */
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0).Edyn Hillman 11.24 */
 .stickyHeader + .content {
   padding-top: 102px;}
 
