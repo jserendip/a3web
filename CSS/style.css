@@ -99,19 +99,10 @@ ol li
 #header
 { position: fixed;
   background: #4b4b4b url(back.png) repeat-x;
-  height: 177px;}
-
-/* This code has been adapted from https://www.w3schools.com/howto/howto_js_sticky_header.asp.Edyn Hillman 11.24 */
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.stickyHeader {
-  position: fixed;
+  height: 150px;
   top: 0;
   width: 100%}
 
-/* This code has been adapted from https://www.w3schools.com/howto/howto_js_sticky_header.asp */
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0).Edyn Hillman 11.24 */
-.stickyHeader + .content {
-  padding-top: 102px;}
 
 #banner
 {  background: transparent url(../images/torontoskyline2.png) no-repeat;
@@ -135,7 +126,7 @@ ol li
 #logo
 { width: 880px;
   position: relative;
-  height: 140px;
+  height: 113px;
   background: transparent;}
 
 #logo #logo_text 
@@ -230,9 +221,9 @@ ul#menu li a:hover
 .contentp2img1 {
   float:left;
 }
-
+/* Edyn footer position and text padding change 12-01 */
 #footer
-{ position: fixed;
+{ position: static;
   bottom:0;
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
@@ -245,7 +236,7 @@ ul#menu li a:hover
 
 #footer p
 { line-height: 0.4em;
-  padding: 0 0 10px 0;}
+  padding: 10px 0 5px 0px;}
 
 #footer a
 { color: #A8AA94;
