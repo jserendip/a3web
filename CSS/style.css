@@ -210,9 +210,8 @@ ul#menu li a:hover
 #site_content
 { width: 100%;
   overflow: hidden;
-  margin: 20px auto 0 auto;
-  padding: 0 0 10px 0;
-  padding-bottom: 80px;} 
+  padding: 180px 0 90px 0;
+} 
 
 /* David editing page format 12/01/20 */
 #content
