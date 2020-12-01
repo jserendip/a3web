@@ -245,12 +245,16 @@ ul#menu li a:hover
 { margin: 0;} 
 
 */
-
+/* David editing page format 12/01/20 */
 #content
 { text-align: left;
   width: 620px;
   padding: 0 0 0 5px;
-  float: left;}
+  float: left;
+  }
+
+.contentp1
+{ float: right;}
 
 /* David Census image change 11-24 @ 2:10 */
 .census {
