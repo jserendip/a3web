@@ -207,18 +207,20 @@ ul#menu li a:hover
 /* David editing page format 12/01/20 */
 #content
 { text-align: left;
-  padding: 0 0 0 5px;
+  padding: 0 0 0 10px;
   float: left;
   }
 
 .contentp1
-{float: right;}
+{float: right;
+  padding: 0 25% 0 0;
+}
 
 /* David Census image change 11-24 @ 2:10 */
 .contentp2 {
     float: right;
 }
-.contentp2img1 {
+.contentp2txt1 {
   float:left;
 }
 /* Edyn footer position and text padding change 12-01 */
