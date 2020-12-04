@@ -149,12 +149,7 @@ ol li
 { font-size: 120%;
   padding: 4px 0 0 0;
   color: #a8ddb5;}
-  #main
-  {
-  position: relative;  
-  height: 1800px;
-  
-  }
+
 #menubar
 { position: relative;
   top:15%;
@@ -201,8 +196,7 @@ ul#menu li a:hover
 #site_content
 { width: 100%;
   overflow: hidden;
-  position: relative;
-  padding: 10px 0 90px 0;
+  padding: 180px 0 90px 0;
 } 
 
 /* David editing page format 12/01/20 */
