@@ -100,7 +100,7 @@ ol li
 #header
 { position: fixed;
   background: #4b4b4b url(back.png) repeat-x;
-  height: 150px;
+  height: 20%;
   top: 0;
   width: 100%}
 
@@ -226,12 +226,12 @@ ul#menu li a:hover
 
 /* Edyn footer position and text padding change 12-01 */
 #footer
-{ position: static;
+{ position: absolute;
   bottom:0;
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
-  height: 54px;
+  height: 10%;
   padding: 0px 0 0px 0;
   text-align: center; 
   background: #3B3939 repeat-x;
