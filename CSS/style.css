@@ -98,7 +98,7 @@ ol li
   margin-right: auto;}
 
 #header
-{ position: fixed;
+{ position: absolute;
   background: #4b4b4b url(back.png) repeat-x;
   height: 180px;
   top: 0;
@@ -228,8 +228,8 @@ ul#menu li a:hover
 
 /* Edyn footer position and text padding change 12-01 */
 #footer
-{ position: fixed;
-  bottom:0;
+{ position: absolute;
+  bottom:0px;
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
