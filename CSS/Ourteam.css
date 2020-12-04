@@ -1,10 +1,56 @@
 .profilepage
-{  background: #85b478;
-  width: 200%;
-  height: 500px;
+{  
+  display: block;
+  
+  width: 50%;
+  height: 550px;
   margin-left:auto;
   margin-right: auto;
   position: relative;
-  border: 1px solid #f3f7f2;}
+  padding: 180px;
+  border: 5px solid #f2f6f8;}
+
+  .Photo img{
+    
+    position: absolute;
+    height: 50%;
+    left: 150px;
+    top:200px;
+    box-shadow: 6px 6px 1px rgb(70, 67, 67);
+   }
+
+
+  .profile_text{
+    position: absolute;
+    left:  600px;
+    font: 2em sans-serif;
+    right: 50px;
+    color: rgb(233, 229, 229);
+
+  }
+
+
+  #Raghad{
+    background: #0868ac;
+
+  }
+  #David{
+    background: #7bccc4;
+
+  }
+  #James{
+    background: #4eb3d3;
+
+  }
+  #Edyn{
+    background: #2b8cbe;
+
+  }
+
+  h3{
+    font: 2em sans-serif;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #084081;
+  }
 
 
