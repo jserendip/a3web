@@ -204,6 +204,11 @@ ul#menu li a:hover
   float: left;
   width: 100%;
   }
+.servicecenter
+  {text-align:center;
+    text-width:30%;
+    columns: 100px 3;
+    }
 
 .contentp1
 {float: right;
