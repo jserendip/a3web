@@ -206,9 +206,13 @@ ul#menu li a:hover
   }
 .servicecenter
   {text-align:center;
-    text-width:30%;
-    columns: 100px 3;
+    columns: 3;
+    margin-left: 10%;
+    width: 80%;
     }
+.moveup
+{margin-top: 0px;
+}
 
 .contentp1
 {float: right;
