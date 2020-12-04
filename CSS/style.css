@@ -98,11 +98,12 @@ ol li
   margin-right: auto;}
 
 #header
-{ position: fixed;
+{ position: sticky;
   background: #4b4b4b url(back.png) repeat-x;
-  height: 150px;
+  height: 180px;
   top: 0;
-  width: 100%}
+  width: 100%
+  }
 
 
 #banner
@@ -151,7 +152,9 @@ ol li
   color: #a8ddb5;}
 
 #menubar
-{ width: 880px;
+{ position: relative;
+  top:15%;
+  width: 880px;
   height: 46px;} 
 
 ul#menu
@@ -200,28 +203,38 @@ ul#menu li a:hover
 /* David editing page format 12/01/20 */
 #content
 { text-align: left;
-  padding: 0 0 0 5px;
+  padding: 0 0 0 10px;
   float: left;
+  width: 100%;
   }
+.servicecenter
+  {text-align:center;
+    columns: 3;
+    margin-left: 10%;
+    width: 80%;
+    }
+.moveup
+{margin-top: 0px;
+}
 
 .contentp1
-{float: right;}
+{float: right;
+  padding: 0 25% 0 0;
+}
 
 /* David Census image change 11-24 @ 2:10 */
 .contentp2 {
     float: right;
 }
-.contentp2img1 {
-  float:left;
-}
+
 /* Edyn footer position and text padding change 12-01 */
 #footer
-{ position: static;
-  bottom:0;
+{ position: fixed;
+  bottom:0px;
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
-  height: 54px;
+  height: 10%;
   padding: 0px 0 0px 0;
   text-align: center; 
   background: #3B3939 repeat-x;
@@ -239,4 +252,50 @@ ul#menu li a:hover
 { color: #FFF;
   text-decoration: none;}
 
+/*Edyn Drop down bar 12/01 */
+/* borrowed from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+/* creates hidden dropdown container */
+#dropdown
+{ float: left;
+  overflow: hidden;}
 
+#dropdown #dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+#dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+#dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+#dropdown:hover #dropdown-content {
+  display: block;
+}
