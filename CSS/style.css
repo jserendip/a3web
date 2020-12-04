@@ -100,7 +100,7 @@ ol li
 #header
 { position: fixed;
   background: #4b4b4b url(back.png) repeat-x;
-  height: 20%;
+  height: 180px;
   top: 0;
   width: 100%}
 
@@ -151,7 +151,9 @@ ol li
   color: #a8ddb5;}
 
 #menubar
-{ width: 880px;
+{ position: relative;
+  top:15%;
+  width: 880px;
   height: 46px;} 
 
 ul#menu
@@ -226,7 +228,7 @@ ul#menu li a:hover
 
 /* Edyn footer position and text padding change 12-01 */
 #footer
-{ position: absolute;
+{ position: fixed;
   bottom:0;
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
