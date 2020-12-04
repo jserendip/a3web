@@ -98,7 +98,7 @@ ol li
   margin-right: auto;}
 
 #header
-{ position: absolute;
+{ position: relative;
   background: #4b4b4b url(back.png) repeat-x;
   height: 180px;
   top: 0;
@@ -149,7 +149,12 @@ ol li
 { font-size: 120%;
   padding: 4px 0 0 0;
   color: #a8ddb5;}
-
+  #main
+  {
+  position: relative;  
+  height: 1800px;
+  
+  }
 #menubar
 { position: relative;
   top:15%;
@@ -196,7 +201,8 @@ ul#menu li a:hover
 #site_content
 { width: 100%;
   overflow: hidden;
-  padding: 180px 0 90px 0;
+  position: relative;
+  padding: 10px 0 90px 0;
 } 
 
 /* David editing page format 12/01/20 */
@@ -228,7 +234,7 @@ ul#menu li a:hover
 
 /* Edyn footer position and text padding change 12-01 */
 #footer
-{ position: absolute;
+{ position: fixed;
   bottom:0px;
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
