@@ -90,10 +90,7 @@ ol li
   width: auto;
   margin-left: 10px;}
 
-.center
-{ display: block;
-  text-align: center;
-  margin: 20px auto;}
+
 
 #main, #logo, #menubar, #site_content, #footer
 { margin-left: auto; 
@@ -161,6 +158,7 @@ ol li
 
 #menubar
 { position: absolute;
+  overflow: visible;
   top:80%;
   width: 100%;
   right: 20%;
@@ -212,14 +210,24 @@ ul#menu li a:hover
   float: left;
   width: 100%;
   }
+
+
+  .center
+  {   
+    text-align: center;
+    padding-top:2% ;
+    font-size:2em;
+  
+   
+    }
 .pcenter
   {text-align:center;
     columns: 3;
     width: auto;
     padding-top:5% ;
-    padding-bottom:5% ;
     padding-left: 10%;
     padding-right:10%;
+
     }
 .moveup
 {margin-top: 0px;
@@ -234,6 +242,17 @@ margin-left: auto;
   margin-right: auto;
  }
 
+ .U-Container{
+  background: #7bccc4;
+  width: 100%;
+  height: 750px;
+ }
+
+ .S-Container{
+  background: #2b8cbe;
+  width: 100%;
+  height: 750px;
+ }
 
 .contentp1
 {float: right;
@@ -279,7 +298,6 @@ margin-left: auto;
   overflow: hidden;}
 
 #dropdown #dropbtn {
-  font-size: 16px;
   border: none;
   outline: none;
   color: white;
