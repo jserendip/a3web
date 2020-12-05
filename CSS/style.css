@@ -110,8 +110,8 @@ ol li
 
 
 #banner
-{  background: transparent url(../images/torontoskyline2.png) no-repeat;
-  width: 860px;
+{  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
+  width: auto;
   height: 180px;
   display: block;
   margin-left:auto;
@@ -119,7 +119,12 @@ ol li
   margin-bottom: 20px;
   border: 10px solid #e0f3db;}
 
-
+  #site_content
+  { width: 100%;
+    overflow: hidden;
+    padding: 10px 0 90px 0;
+  } 
+  
 #logo
 { width: 880px;
   position: relative;
@@ -198,11 +203,6 @@ ul#menu li.selected a, ul#menu li.selected a:hover
 ul#menu li a:hover
 { color: #a8ddb5;}
 
-#site_content
-{ width: 100%;
-  overflow: hidden;
-  padding: 180px 0 90px 0;
-} 
 
 /* David editing page format 12/01/20 */
 #content
@@ -250,6 +250,7 @@ ul#menu li a:hover
 
 #footer a
 { color: #A8AA94;
+
   text-decoration: none;}
 
 #footer a:hover
