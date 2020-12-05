@@ -304,4 +304,5 @@ ul#menu li a:hover
   display: block;
 }
 #envservicesimg
-{ align: center;}
+{
+  width: 50%;}
