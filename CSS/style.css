@@ -303,6 +303,6 @@ ul#menu li a:hover
 #dropdown:hover #dropdown-content {
   display: block;
 }
+/*centers the services page environmental section image */
 #envservicesimg
-{
-  width: 50%;}
+{margin: auto;}
