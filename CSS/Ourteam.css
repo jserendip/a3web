@@ -7,8 +7,8 @@
   position: relative;
   border: 5px solid #f2f6f8;
   padding: 100px;
-  z-index: -1
-}
+  /*z-index: -1*/
+} 
 
   .Photo img{
     position: absolute;
@@ -31,7 +31,24 @@
     padding-right: 25%;
     overflow:auto;
   }
+  #panel, #flip {
+    position: absolute;
+    height: auto;
+    left:10%;
+    top:71%;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
   
+  #panel {
+    position: absolute;
+    height: auto;
+    left:10%;
+    top:71%;
+    padding: 50px;
+    display: none;
+  }
 
   #Raghad{
     background: #0868ac;
