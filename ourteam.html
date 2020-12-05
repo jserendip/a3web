@@ -9,7 +9,7 @@
   <meta name="keywords" content="GIS, Data Management, Remote Sensing, Cartography, GIS Applications" />
   <link rel="stylesheet" type="text/css" href="CSS/style.css" />
   <script src="js/jscode.js"> </script>
-  <link rel="stylesheet" type="text/css" href="CSS/Ourteam.css" />
+  <link rel="stylesheet" type="text/css" href="CSS/Ourteam.css" /> 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 
@@ -46,7 +46,13 @@
           <li><a href="projects.html">Projects</a></li>
         </ul>
       </div> <!-- ends menu bar setting -->
-	    
+      <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>	    
 </div> <!-- ends header section -->
 <div id="main">
     <section class="profilepage" id="David">
@@ -65,6 +71,8 @@
     <section class="profilepage" id="James">
       <div class="Photo">
         <img src= "images/James.jpg"  class="profile_photo" >
+        <div id="flip">Click for some fun facts about James Serendip</div>
+        <div id="panel">James is also a certified Clinical Hypnotherapist</div> 
       </div>
       <div class="profile_text">
         <h3>James Serendip</h3>
@@ -75,25 +83,11 @@
           Sensing and Surveying and Geodesy.  In the mornings you can find James down by 
           the lake practicing or teaching Tai Chi Chuan, and on the weekends you will
           find him out in the woods hiking, camping, fishing or making bow-drill fires. 
-        </p>
-        <!--   this doesn't work either....
-        <script> 
-          $(document).ready(function(){
-            $("#flip").click(function(){
-              $("#panel").slideToggle("slow");
-            });
-          });
-          </script>
-        <div id="flip">Click to slide the panel down or up</div>
-        <div id="panel">Hello world!</div>     -->
-
-
-           
-        <p id="JSinfo">James is also a certified clinical hypnotherapist.</p>       
-        <button type="button" onclick="displayjames()">Click for Fun Facts</button> 
-        
-      </div>"
+        </p>  
+ 
+      </div>
     </section>
+
     <section class="profilepage" id="Edyn">
       <div class="Photo">
       <img src= "images/Edyn.jpg"  class="profile_photo" >
