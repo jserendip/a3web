@@ -158,6 +158,7 @@ ol li
 
 #menubar
 { position: absolute;
+  overflow: hidden;
   top:80%;
   width: 100%;
   right: 20%;
