@@ -16,6 +16,6 @@ function oldsat()  {
 /* function to show more info on JS on button click  
 from w3schools example*/
 function displayjames() {
-	document.getElementById('JSinfo').style.display='block';
+	document.getElementById("JSinfo").innerHTML = "Work Damn You!";
 }
 
