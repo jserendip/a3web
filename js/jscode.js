@@ -15,8 +15,7 @@ function oldsat()  {
 
 /* function to show more info on JS on button click  
 from w3schools example*/
-function displayJS() {
-	var dis = document.getElementById('JSinfo');
-	dis.style.display='block';
+function displayjames() {
+	document.getElementById('JSinfo').style.display='block';
 }
 
