@@ -39,8 +39,9 @@
     left:10%;
     top:64%;
     text-align: center;
+    color: mediumblue;
     font: 1.4em sans-serif;
-    padding: 2px 2px 2px 2px;
+    padding: 5px 5px 5px 5px;
     background-color: #ffa64d;
     border: solid 1px #c3c3c3;
   }
@@ -52,8 +53,8 @@
     max-width: 14.15%;
     left:10%;
     top:64%;
-    font: 2em sans-serif;
-    padding: 10px 2px 10px 2px;
+    font: 1.7em sans-serif;
+    padding: 10px 5px 10px 5px;
     display: none;
   }
 
