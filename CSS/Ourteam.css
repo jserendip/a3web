@@ -21,14 +21,14 @@
 
   .profile_text{
     position: absolute;
-    left:  35%;
+    left:  28%;
     font: 2em sans-serif;
     top:22%;
     color: rgb(233, 229, 229);
   }
 
   .profile_text p{
-    padding-right: 17%;
+    padding-right: 25%;
     overflow:auto;
   }
   
