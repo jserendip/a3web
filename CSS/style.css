@@ -100,7 +100,7 @@ ol li
   margin-right: auto;}
 
 #header
-{ position: fixed;
+{ position: relative;
   background: #4b4b4b url(back.png) repeat-x;
   height: auto;
   top: 0;
@@ -233,13 +233,13 @@ ul#menu li a:hover
 
 /* Edyn footer position and text padding change 12-01 */
 #footer
-{ position: fixed;
+{ position: relative;
   bottom:0px;
   width: 100%;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
   height: 10%;
-  padding: 0px 0 0px 0;
+  padding: 1%;
   text-align: center; 
   background: #3B3939 repeat-x;
   color: #A8AA94;}
