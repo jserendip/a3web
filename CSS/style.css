@@ -306,3 +306,17 @@ ul#menu li a:hover
 /*centers the services page environmental section image */
 #envservicesimg
 {margin: auto;}
+
+/* style for drop panels on ourteam pages */
+/* James Serendip*/
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
