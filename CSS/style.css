@@ -100,7 +100,7 @@ ol li
   margin-right: auto;}
 
 #header
-{ position: relative;
+{ position: fixed;
   background: #4b4b4b url(back.png) repeat-x;
   height: auto;
   top: 0;
