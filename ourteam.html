@@ -45,20 +45,44 @@
             </div> 
         </ul>
       </div> <!-- ends menu bar setting -->
-      <script> 
+     <script> 
         $(document).ready(function(){
           $("#flip").click(function(){
             $("#panel").slideDown("slow");
           });
         });
-        </script>	    
+        </script> 
+      <script> 
+      $(document).ready(function(){
+        $("#flipJS").click(function(){
+          $("#panelJS").slideDown("slow");
+        });
+      });
+      </script> 
+      <script> 
+        $(document).ready(function(){
+          $("#flipEH").click(function(){
+            $("#panelEH").slideDown("slow");
+          });
+        });
+        </script>  
+            <script> 
+              $(document).ready(function(){
+                $("#flipRE").click(function(){
+                  $("#panelRE").slideDown("slow");
+                });
+              });
+              </script>  
 </div> <!-- ends header section -->
 <div id="main">
     <section class="profilepage" id="David">
-      <a id="DavidsProfile">
-      <div class="Photo">
+      <a id="DavidProfile">
+      <figure id="PhotoDP">
         <img src= "images/David.jpg" class="profile_photo">
-      </div>
+        <figcaption id="flip">  Click for some Fun Facts about David Purdham  </figcaption>
+        <figcaption id="panel">David is the rightful Heir to the throne of Moldova.
+        </figcaption>
+      </figure>
       </a>
       <div class="profile_text">
         <h3>David Purdham</h3>
@@ -70,11 +94,11 @@
       </div>
     </section>
     <section class="profilepage" id="James">
-      <a id="JamesProfile"></a>
-      <figure class="Photo">
+      <a id="JamesProfile">
+      <figure id="PhotoJS">
         <img src= "images/James.jpg"  class="profile_photo" >
-        <figcaption id="flip">  Click for some Fun Facts about James Serendip  </figcaption>
-        <figcaption id="panel">James is also a certified Clinical Hypnotherapist.  James grew up in the US, living in New York, 
+        <figcaption id="flipJS">  Click for some Fun Facts about James Serendip  </figcaption>
+        <figcaption id="panelJS">James is also a certified Clinical Hypnotherapist.  James grew up in the US, living in New York, 
           New Orleans, Denver, Hawaii and New Mexico before moving to Penticton BC which he now calls home.
         </figcaption> 
       </figure>
@@ -94,11 +118,14 @@
     </section>
 
     <section class="profilepage" id="Edyn">
-      <a id="EdynsProfile"></a>
-      <div class="Photo">
+      <a id="EdynsProfile">
+      <figure id="PhotoEH">
       <img src= "images/Edyn.jpg"  class="profile_photo" >
-      </div>
-      </a>
+      <figcaption id="flipEH">  Click for some Fun Facts about Edyn Hillman  </figcaption>
+      <figcaption id="panelEH">Edyn has worked as a stand-in for British rocker Robert Plant in
+        a recent film about Led Zeppelin.
+      </figcaption></a>
+    </figure>
       <div class="profile_text">
         <h3>Edyn Hillman</h3>
         <p>There must be a single CSS document referenced for each page as the last to
@@ -110,11 +137,12 @@
     </section>
     <section class="profilepage" id="Raghad">
       <a id="RaghadsProfile">
-      <div class="Photo">
+      <figure id="PhotoRE">
         <img src= "images/Raghad.jpg"  class="profile_photo" >
-
-      </div>
-      </a>
+        <figcaption id="flipRE">  Click for some Fun Facts about Edyn Hillman  </figcaption>
+        <figcaption id="panelRE">Raghad can kick your butt in SQL.
+        </figcaption>
+      </figure></a>
       <div class="profile_text">
         <h3>Raghad Estanbouli</h3>
         <p>There must be a single CSS document referenced for each page as the last to
