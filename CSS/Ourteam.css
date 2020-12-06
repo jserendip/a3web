@@ -1,7 +1,7 @@
 .profilepage
 {  
   width: auto;
-  height: auto;
+  height: 700px;
   margin-left:auto;
   margin-right: auto;
   position: relative;
@@ -9,7 +9,11 @@
   padding: 100px;
   /*z-index: -1*/
 } 
-
+@media screen and (max-width:1380px) {
+  .profilepage{
+    height: auto;
+  }
+}
   #PhotoDP img{
     position: absolute;
     height: auto;
@@ -21,6 +25,7 @@
     #PhotoDP img{
       position: relative;
       max-width: 150%;
+      min-width: 100px;
     }
   }
    #PhotoJS img{
