@@ -29,21 +29,20 @@
 	    
       <div id="menubar">
         <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="index.html">Home</a></li>
-          <!--<div class = "dropdown">
-            <button class="dropbtn">Our Team
-            </button>
-            </div class="dropdown-content">
-            <a href="#">David Purdham</a>
-            <a href="#">James Serendip</a>
-            <a href="#">Raghad Estanbouli</a>
-            <a href="#">Edyn Hillman</a>
-            </div>
-          </div>  !-->
-          <li><a href="ourteam.html">Our Team</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="projects.html">Projects</a></li>
+            <div class = "dropdown">
+              <li><button class="dropbtn">Our Team 
+                <i class="fa fa-caret-down"></i>
+              </button></li>
+              <div class="dropdown-content">
+                <a href="#DavidsProfile">David Purdham</a>
+                <a href="#JamesProfile">James Serendip</a>
+                <a href="#EdynsProfile">Edyn Hillman</a>
+                <a href="#RaghadsProfile">Raghad Estanbouli</a>
+              </div>
+            </div> 
         </ul>
       </div> <!-- ends menu bar setting -->
       <script> 
@@ -56,9 +55,11 @@
 </div> <!-- ends header section -->
 <div id="main">
     <section class="profilepage" id="David">
+      <a id="DavidsProfile">
       <div class="Photo">
         <img src= "images/David.jpg" class="profile_photo">
       </div>
+      </a>
       <div class="profile_text">
         <h3>David Purdham</h3>
         <p>There must be a single CSS document referenced for each page as the last to
@@ -69,6 +70,7 @@
       </div>
     </section>
     <section class="profilepage" id="James">
+      <a id="JamesProfile"></a>
       <figure class="Photo">
         <img src= "images/James.jpg"  class="profile_photo" >
         <figcaption id="flip">  Click for some Fun Facts about James Serendip  </figcaption>
@@ -76,6 +78,7 @@
           New Orleans, Denver, Hawaii and New Mexico before moving to Penticton BC which he now calls home.
         </figcaption> 
       </figure>
+      </a>
       <div class="profile_text">
         <h3>James Serendip</h3>
         <p>James is a GIS Applications Specialist with an emphasis on communications.
@@ -91,9 +94,11 @@
     </section>
 
     <section class="profilepage" id="Edyn">
+      <a id="EdynsProfile"></a>
       <div class="Photo">
       <img src= "images/Edyn.jpg"  class="profile_photo" >
       </div>
+      </a>
       <div class="profile_text">
         <h3>Edyn Hillman</h3>
         <p>There must be a single CSS document referenced for each page as the last to
@@ -104,10 +109,12 @@
       </div>
     </section>
     <section class="profilepage" id="Raghad">
+      <a id="RaghadsProfile">
       <div class="Photo">
         <img src= "images/Raghad.jpg"  class="profile_photo" >
 
       </div>
+      </a>
       <div class="profile_text">
         <h3>Raghad Estanbouli</h3>
         <p>There must be a single CSS document referenced for each page as the last to
