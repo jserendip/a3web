@@ -119,7 +119,11 @@
     padding: 10px 5px 10px 5px;
     display: none;
   }
-
+  @media screen and (max-width:1380px) {
+    #panel{
+      position: relative;
+    }
+  }
   #panelJS, #flipJS {
     display: block;
     position: absolute;
@@ -134,7 +138,11 @@
     background-color: #ffa64d;
     border: solid 1px #c3c3c3;
   }
-  
+  @media screen and (max-width:1380px) {
+    #panelJS, #flipJS{
+      position: relative;
+    }
+  }
   #panelJS {
     display: block;
     position: absolute;
@@ -146,7 +154,11 @@
     padding: 10px 5px 10px 5px;
     display: none;
   }
-
+  @media screen and (max-width:1380px) {
+    #panelJS{
+      position: relative;
+    }
+  }
   #panelEH, #flipEH {
     display: block;
     position: absolute;
@@ -161,7 +173,11 @@
     background-color: #ffa64d;
     border: solid 1px #c3c3c3;
   }
-  
+  @media screen and (max-width:1380px) {
+    #panelEH, #flipEH{
+      position: relative;
+    }
+  }
   #panelEH {
     display: block;
     position: absolute;
@@ -173,7 +189,11 @@
     padding: 10px 5px 10px 5px;
     display: none;
   }
-
+  @media screen and (max-width:1380px) {
+    #panelEH{
+      position: relative;
+    }
+  }
   #panelRE, #flipRE {
     display: block;
     position: absolute;
@@ -188,7 +208,11 @@
     background-color: #ffa64d;
     border: solid 1px #c3c3c3;
   }
-  
+  @media screen and (max-width:1380px) {
+    #panelRE, #flipRE{
+      position: relative;
+    }
+  }
   #panelRE {
     display: block;
     position: absolute;
@@ -200,7 +224,11 @@
     padding: 10px 5px 10px 5px;
     display: none;
   }
-
+  @media screen and (max-width:1380px) {
+    #panelRE{
+      position: relative;
+    }
+  }
 
 
 
