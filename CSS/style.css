@@ -236,11 +236,10 @@ ul#menu li a:hover
 /*centers the services page environmental section image */
 .servicesimg
 {
-width: auto;
+width: 50%;
 position: relative;
-padding-left: 25%;
 margin-left: auto;
-  margin-right: auto;
+margin-right: auto;
  }
 
  .U-Container{
