@@ -250,6 +250,7 @@ ul#menu li a:hover
   
    
     }
+/*centers the services page environmental section image */
 .pcenter
   {text-align:center;
     columns: 3;
@@ -258,19 +259,24 @@ ul#menu li a:hover
     display: flex;
     margin-top: 2%;
     margin: 2%;
-    
-    
-
     }
+/*Changes the horizontal stack of the columns to a vertical stack when the screen is smaller. Inspired from w3schools.
+@media screen and (max-width:800px) {
+  .pcenter{
 
-/*centers the services page environmental section image */
+  }
+}*/
 .servicesimg
 {
-width: 50%;
+width: 1000px;
 position: relative;
 margin-left: auto;
 margin-right: auto;
  }
+@media screen and (max-width:1000px) {
+  .servicesimg {
+    width:100%;
+  }
 
  .U-Container{
   background: #7bccc4d7;
