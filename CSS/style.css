@@ -273,11 +273,13 @@ position: relative;
 margin-left: auto;
 margin-right: auto;
  }
+.imgresponsive
+{max-width: 100%;}
 @media screen and (max-width:1000px) {
-  .servicesimg {
+  .imgresponsive {
     width:100%;
   }
-
+}
  .U-Container{
   background: #7bccc4d7;
   width: 100%;
