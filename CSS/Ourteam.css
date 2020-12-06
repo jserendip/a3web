@@ -1,7 +1,7 @@
 .profilepage
 {  
   width: auto;
-  height: 675px;
+  height: auto;
   margin-left:auto;
   margin-right: auto;
   position: relative;
@@ -17,7 +17,12 @@
     top:23%;
     box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
    }
-
+   @media screen and (max-width:1380px) {
+    #PhotoDP img{
+      position: relative;
+      max-width: 150%;
+    }
+  }
    #PhotoJS img{
     position: absolute;
     height: auto;
@@ -43,21 +48,27 @@
 
   .profile_text{
     position: absolute;
-    left:  30%;
+    left:  32%;
     font: 2em sans-serif;
     top:22%;
     color: rgb(233, 229, 229);
   }
-
+  @media screen and (max-width:1380px) {
+    .profile_text{
+      position: relative;
+    }
+  }
   .profile_text p{
     padding-right: 25%;
     overflow:auto;
   }
+
   #panel, #flip {
     display: block;
     position: absolute;
     height: auto;
     max-width: 15.5%;
+    min-width: 100px;
     left:10%;
     top:64%;
     text-align: center;
@@ -67,7 +78,11 @@
     background-color: #ffa64d;
     border: solid 1px #c3c3c3;
   }
-  
+  @media screen and (max-width:1380px) {
+    #panel, #flip{
+      position: relative;
+    }
+  }
   #panel {
     display: block;
     position: absolute;

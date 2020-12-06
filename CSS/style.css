@@ -108,7 +108,7 @@ ol li
   padding: 2%;
   width: auto;
   }
-  @media screen and (max-width:520px) {
+  @media screen and (max-width:560px) {
     #header{
       height: 300px;
     }
