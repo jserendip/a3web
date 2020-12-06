@@ -13,9 +13,5 @@ function oldsat()  {
 	document.getElementById("satimage").src="images/ricelakeuncorrected.JPG";
 	}
 
-/* function to show more info on JS on button click  
+/* function to show fun facts on button click  
 from w3schools example*/
-function displayjames() {
-	document.getElementById("JSinfo").innerHTML = "Work Damn You!";
-}
-
