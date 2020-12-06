@@ -371,6 +371,7 @@ margin-right: auto;
   min-width: 160px;
   box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  top: 90%;
 }
 
 /* Links inside the dropdown */
@@ -436,28 +437,4 @@ margin-right: auto;
         padding-bottom: 5%;
       }
 
-      /*
       
-            .project_text{
-        position: absolute;
-        left:  300%;
-        font: 1em sans-serif;
-        top:22%;
-        color: rgb(233, 229, 229);
-        display: none;
-      }
-      
-      #servey{
-        background-color: #000;
-
-      }
-
-      #Geovis{
-        background-color: #000;
-
-      }
-
-      #RS{
-        background-color: #000;
-
-      }*/
