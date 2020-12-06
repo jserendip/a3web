@@ -129,6 +129,7 @@
     position: absolute;
     height: auto;
     max-width: 15.5%;
+    min-width: 100px;
     left:10%;
     top:64%;
     text-align: center;
@@ -164,6 +165,7 @@
     position: absolute;
     height: auto;
     max-width: 15.5%;
+    min-width: 100px;
     left:10%;
     top:64%;
     text-align: center;
@@ -199,6 +201,7 @@
     position: absolute;
     height: auto;
     max-width: 15.5%;
+    min-width: 100px;
     left:10%;
     top:64%;
     text-align: center;

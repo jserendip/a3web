@@ -133,7 +133,6 @@ ol li
   
   #intro-content
   { 
-
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: #575a5a5d; /* Black w/opacity/see-through */
   color: white;
@@ -148,10 +147,12 @@ ol li
   padding: 20px;
   text-align: center;
   height: auto;
-
-    
   } 
-  
+  @media screen and (max-width:560px) {
+    #intro-content{
+      top: 80%;
+    }
+  }
  
 
 
