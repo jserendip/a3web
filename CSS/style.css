@@ -276,7 +276,7 @@ margin-right: auto;
 .imgresponsive
 {max-width: 100%;}
 @media screen and (max-width:1000px) {
-  .imgresponsive {
+  .imgresponsive, .servicesimg, #logo {
     width:100%;
   }
 }
