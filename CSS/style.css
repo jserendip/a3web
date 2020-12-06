@@ -6,7 +6,8 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #f7fcf0;
+  
+  
   color: #555;}
 
 p
@@ -96,32 +97,60 @@ ol li
 { margin-left: auto; 
   margin-right: auto;}
 
+#main{background-image: url(../images/HillShade.jpg) ;}
+
+
 #header
 { position: relative;
   background: #4b4b4b url(back.png) repeat-x;
   height: auto;
   top: 0;
   padding: 2%;
-  width: 100%
+  width: auto;
   }
 
 
-#banner
-{  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
-  width: auto;
-  height: 180px;
-  display: block;
-  margin-left:auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  border: 10px solid #e0f3db;}
+  #banner
+  {  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
+    width: auto;
+    height: 850px;
+    display: block;
+    background: #7bccc4e3;;
+    
+    }
 
-  #site_content
-  { width: 100%;
-    overflow: hidden;
-    padding: 10px 0 90px 0;
+    
+  
+    #site_content
+    { 
+      padding: 0px 0 0px 0;
+    }
+
+  
+  #intro-content
+  { 
+
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: #575a5a5d; /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+  height: 50%;
+
+    
   } 
   
+ 
+
+
 #logo
 { width: 880px;
   position: relative;
@@ -228,6 +257,7 @@ ul#menu li a:hover
     height:auto ;
     display: flex;
     margin-top: 2%;
+    margin: 2%;
     
     
 
@@ -236,15 +266,14 @@ ul#menu li a:hover
 /*centers the services page environmental section image */
 .servicesimg
 {
-width: auto;
+width: 50%;
 position: relative;
-padding-left: 25%;
 margin-left: auto;
-  margin-right: auto;
+margin-right: auto;
  }
 
  .U-Container{
-  background: #7bccc4;
+  background: #7bccc4d7;
   width: 100%;
   height: 1000px;
  }
@@ -258,10 +287,12 @@ margin-left: auto;
   padding: 3%;
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
   overflow: hidden;
+  margin: 1%;
+
  }
 
  .S-Container{
-  background: #4eb3d3;
+  background: #4eb4d3dc;
   width: 100%;
   height: 1000px;
  }
@@ -275,6 +306,7 @@ margin-left: auto;
   text-align: justify;
   background: #3738383a;
   padding: 3%;
+  margin: 1%;
 
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
   overflow: hidden;
@@ -293,7 +325,7 @@ margin-left: auto;
 #footer
 { position: relative;
   bottom:0px;
-  width: 100%;
+  width: auto;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
   height: 10%;
@@ -343,6 +375,7 @@ margin-left: auto;
   min-width: 160px;
   box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  top: 90%;
 }
 
 /* Links inside the dropdown */
@@ -365,17 +398,47 @@ margin-left: auto;
   display: block;
 }
 
+/*pojects Page*/
+      #banner2
+    {  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
+    height: auto;
+    background: #7bccc4e3;
+    columns: 3;
+    display: flex;
+    align-items: inherit;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 
-/* style for drop panels on ourteam pages */
-/* James Serendip*/
-#panel, #flip {
-  padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
-}
 
-#panel {
-  padding: 50px;
-  display: none;
-}
+      }
+
+  
+      .Project-Photo img{
+        width: 75%;
+        position: relative;
+        margin-left: 12%;
+        margin-right: 12%;
+        padding-top: 10%;
+        
+
+      }
+      
+      .ProjectSection{
+
+        background: #1920201a;
+        border: 1px solid #e5e5db91;
+        margin-left: 1%;
+        margin-right: 1%;
+
+      }
+
+    
+      .project_text p{
+        padding-right: 12%;
+        padding-left: 12%;
+        padding-bottom: 5%;
+      }
+
+      

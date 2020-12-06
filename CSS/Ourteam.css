@@ -1,16 +1,16 @@
 .profilepage
 {  
-  width: 100%;
+  width: auto;
   height: 675px;
   margin-left:auto;
   margin-right: auto;
   position: relative;
-  border: 5px solid #f2f6f8;
+  border: 0.5px solid #f2f6f8;
   padding: 100px;
   /*z-index: -1*/
 } 
 
-  .Photo img{
+  #PhotoDP img{
     position: absolute;
     height: auto;
     left:10%;
@@ -18,10 +18,32 @@
     box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
    }
 
+   #PhotoJS img{
+    position: absolute;
+    height: auto;
+    left:10%;
+    top:23%;
+    box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+   }
+   #PhotoEH img{
+    position: absolute;
+    height: auto;
+    left:10%;
+    top:23%;
+    box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+   }
+
+   #PhotoRE img{
+    position: absolute;
+    height: auto;
+    left:10%;
+    top:23%;
+    box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+   }
 
   .profile_text{
     position: absolute;
-    left:  28%;
+    left:  30%;
     font: 2em sans-serif;
     top:22%;
     color: rgb(233, 229, 229);
@@ -35,7 +57,7 @@
     display: block;
     position: absolute;
     height: auto;
-    max-width: 14.15%;
+    max-width: 15.5%;
     left:10%;
     top:64%;
     text-align: center;
@@ -50,7 +72,7 @@
     display: block;
     position: absolute;
     height: auto;
-    max-width: 14.15%;
+    max-width: 15.5%;
     left:10%;
     top:64%;
     font: 1.7em sans-serif;
@@ -58,19 +80,103 @@
     display: none;
   }
 
+  #panelJS, #flipJS {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    left:10%;
+    top:64%;
+    text-align: center;
+    color: mediumblue;
+    font: 1.4em sans-serif;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffa64d;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panelJS {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    left:10%;
+    top:64%;
+    font: 1.7em sans-serif;
+    padding: 10px 5px 10px 5px;
+    display: none;
+  }
+
+  #panelEH, #flipEH {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    left:10%;
+    top:64%;
+    text-align: center;
+    color: mediumblue;
+    font: 1.4em sans-serif;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffa64d;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panelEH {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    left:10%;
+    top:64%;
+    font: 1.7em sans-serif;
+    padding: 10px 5px 10px 5px;
+    display: none;
+  }
+
+  #panelRE, #flipRE {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    left:10%;
+    top:64%;
+    text-align: center;
+    color: mediumblue;
+    font: 1.4em sans-serif;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffa64d;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panelRE {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    left:10%;
+    top:64%;
+    font: 1.7em sans-serif;
+    padding: 10px 5px 10px 5px;
+    display: none;
+  }
+
+
+
+
   #Raghad{
-    background: #0868ac;
+    background: #0868acdf;
   }
 
   #David{
-    background: #7bccc4;
+    background: #7bccc4d7;
   }
 
   #James{
-    background: #4eb3d3;
+    background: #4eb4d3df;
   }
   #Edyn{
-    background: #2b8cbe;
+    background: #2b8dbedf;
   }
 
   h3{
