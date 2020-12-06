@@ -257,6 +257,7 @@ ul#menu li a:hover
     height:auto ;
     display: flex;
     margin-top: 2%;
+    margin: 2%;
     
     
 
@@ -286,6 +287,8 @@ margin-right: auto;
   padding: 3%;
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
   overflow: hidden;
+  margin: 1%;
+
  }
 
  .S-Container{
@@ -303,6 +306,7 @@ margin-right: auto;
   text-align: justify;
   background: #3738383a;
   padding: 3%;
+  margin: 1%;
 
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
   overflow: hidden;
