@@ -1,6 +1,6 @@
 .profilepage
 {  
-  width: 100%;
+  width: auto;
   height: 675px;
   margin-left:auto;
   margin-right: auto;
@@ -43,7 +43,7 @@
 
   .profile_text{
     position: absolute;
-    left:  28%;
+    left:  30%;
     font: 2em sans-serif;
     top:22%;
     color: rgb(233, 229, 229);
@@ -57,7 +57,7 @@
     display: block;
     position: absolute;
     height: auto;
-    max-width: 14.15%;
+    max-width: 15.5%;
     left:10%;
     top:64%;
     text-align: center;
@@ -72,7 +72,7 @@
     display: block;
     position: absolute;
     height: auto;
-    max-width: 14.15%;
+    max-width: 15.5%;
     left:10%;
     top:64%;
     font: 1.7em sans-serif;
@@ -84,7 +84,7 @@
     display: block;
     position: absolute;
     height: auto;
-    max-width: 14.15%;
+    max-width: 15.5%;
     left:10%;
     top:64%;
     text-align: center;
@@ -99,7 +99,7 @@
     display: block;
     position: absolute;
     height: auto;
-    max-width: 14.15%;
+    max-width: 15.5%;
     left:10%;
     top:64%;
     font: 1.7em sans-serif;
@@ -111,7 +111,7 @@
     display: block;
     position: absolute;
     height: auto;
-    max-width: 14.15%;
+    max-width: 15.5%;
     left:10%;
     top:64%;
     text-align: center;
@@ -126,7 +126,7 @@
     display: block;
     position: absolute;
     height: auto;
-    max-width: 14.15%;
+    max-width: 15.5%;
     left:10%;
     top:64%;
     font: 1.7em sans-serif;
@@ -138,7 +138,7 @@
     display: block;
     position: absolute;
     height: auto;
-    max-width: 14.15%;
+    max-width: 15.5%;
     left:10%;
     top:64%;
     text-align: center;
@@ -153,7 +153,7 @@
     display: block;
     position: absolute;
     height: auto;
-    max-width: 14.15%;
+    max-width: 15.5%;
     left:10%;
     top:64%;
     font: 1.7em sans-serif;
@@ -169,7 +169,7 @@
   }
 
   #David{
-    background: #7bccc4e3;
+    background: #7bccc4d7;
   }
 
   #James{

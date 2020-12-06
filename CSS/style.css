@@ -106,18 +106,20 @@ ol li
   height: auto;
   top: 0;
   padding: 2%;
-  width: 100%
+  width: auto;
   }
 
 
   #banner
   {  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
-    width: 110%;
+    width: auto;
     height: 850px;
     display: block;
     background: #7bccc4e3;;
     
     }
+
+    
   
     #site_content
     { 
@@ -319,7 +321,7 @@ margin-right: auto;
 #footer
 { position: relative;
   bottom:0px;
-  width: 100%;
+  width: auto;
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
   height: 10%;
@@ -391,4 +393,71 @@ margin-right: auto;
   display: block;
 }
 
+/*pojects Page*/
+      #banner2
+    {  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
+    height: auto;
+    background: #7bccc4e3;
+    columns: 3;
+    display: flex;
+    align-items: inherit;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 
+
+      }
+
+  
+      .Project-Photo img{
+        width: 75%;
+        position: relative;
+        margin-left: 12%;
+        margin-right: 12%;
+        padding-top: 10%;
+        
+
+      }
+      
+      .ProjectSection{
+
+        background: #1920201a;
+        border: 1px solid #e5e5db91;
+        margin-left: 1%;
+        margin-right: 1%;
+
+      }
+
+    
+      .project_text p{
+        padding-right: 12%;
+        padding-left: 12%;
+        padding-bottom: 5%;
+      }
+
+      /*
+      
+            .project_text{
+        position: absolute;
+        left:  300%;
+        font: 1em sans-serif;
+        top:22%;
+        color: rgb(233, 229, 229);
+        display: none;
+      }
+      
+      #servey{
+        background-color: #000;
+
+      }
+
+      #Geovis{
+        background-color: #000;
+
+      }
+
+      #RS{
+        background-color: #000;
+
+      }*/
