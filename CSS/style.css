@@ -143,7 +143,7 @@ ol li
   width: 90%;
   padding: 20px;
   text-align: center;
-  height: 50%;
+  height: auto;
 
     
   } 
@@ -260,12 +260,13 @@ ul#menu li a:hover
     margin-top: 2%;
     margin: 2%;
     }
-/*Changes the horizontal stack of the columns to a vertical stack when the screen is smaller. Inspired from w3schools.
+/*Changes the horizontal stack of the columns to a vertical stack when the screen is smaller. Inspired from w3schools.*/
 @media screen and (max-width:800px) {
   .pcenter{
-
+    display:block;
+    columns:auto;
   }
-}*/
+}
 .servicesimg
 {
 width: 1000px;
