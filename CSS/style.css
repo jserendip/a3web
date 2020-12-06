@@ -419,10 +419,13 @@ margin-right: auto;
     padding-right: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
-
-
       }
-
+@media screen and (max-width:1100px) {
+  #banner2{
+    display:block;
+    columns:auto;
+  }
+}
   
       .Project-Photo img{
         width: 75%;
