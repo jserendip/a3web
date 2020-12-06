@@ -286,6 +286,11 @@ margin-right: auto;
   width: 100%;
   height: 1000px;
  }
+ @media screen and (max-width: 800px){
+  .U-Container{
+    padding-bottom: 10px;
+    height: auto;}
+  }
 
  .U-Container p{
   color:#f7f2f2;
