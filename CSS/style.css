@@ -50,7 +50,20 @@ h4, h6
   font: normal 110% arial;
   text-transform: uppercase;}
 
-h5, h6
+  h5{
+    font: 2em sans-serif;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #084081;
+  }
+
+  @media screen and (max-width:1380px) {
+    h5 {
+      font: 1.5em sans-serif;
+     }
+  }
+
+
+  h6
 { color: #888;
   font: normal 95% arial;
   letter-spacing: normal;
@@ -978,14 +991,3 @@ margin-right: auto;
     background: #2b8dbedf;
   }
 
-  h3{
-    font: 2em sans-serif;
-    font-family: "Sofia", sans-serif;
-    text-shadow: 3px 3px 3px #084081;
-  }
-
-  @media screen and (max-width:1380px) {
-    h3 {
-      font: 1.5em sans-serif;
-     }
-  }
