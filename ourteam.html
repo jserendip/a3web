@@ -16,65 +16,65 @@
 </head>
 <!--1:46pm Edyn-->
 <body>
-  
-<div id="header">
-	    
-      <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour" sets the color of the text -->
-          <h1><a href="index.html">EHPS<span class="logo_colour">GIS Consultancy</span></a></h1>
-          <h2>Geographic Information Solutions</h2>
-        </div>
-      </div> <!-- ends logo settings -->
-	    
-      <div id="menubar">
-        <ul id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Projects</a></li>
-            <div class = "dropdown"> <!--Dropdown menu that references each profile on the 'Our Team' page-->
-              <li><button class="dropbtn">Our Team 
-                <i class="fa fa-caret-down"></i>
-              </button></li>
-              <div class="dropdown-content">
-                <a href="#DavidsProfile">David Purdham</a>
-                <a href="#JamesProfile">James Serendip</a>
-                <a href="#EdynsProfile">Edyn Hillman</a>
-                <a href="#RaghadsProfile">Raghad Estanbouli</a>
-              </div>
-            </div> 
-        </ul>
-      </div> <!-- ends menu bar setting -->
-     <script> 
-        $(document).ready(function(){
-          $("#flip").click(function(){
-            $("#panel").slideDown("slow");
-          });
-        });
-        </script> 
-      <script> 
-      $(document).ready(function(){
-        $("#flipJS").click(function(){
-          $("#panelJS").slideDown("slow");
-        });
-      });
-      </script> 
-      <script> 
-        $(document).ready(function(){
-          $("#flipEH").click(function(){
-            $("#panelEH").slideDown("slow");
-          });
-        });
-        </script>  
-            <script> 
-              $(document).ready(function(){
-                $("#flipRE").click(function(){
-                  $("#panelRE").slideDown("slow");
-                });
+  <div id="main">
+    <div id="header">
+          
+          <div id="logo">
+            <div id="logo_text">
+              <!-- class="logo_colour" sets the color of the text -->
+              <h1><a href="index.html">EHPS<span class="logo_colour">GIS Consultancy</span></a></h1>
+              <h2>Geographic Information Solutions</h2>
+            </div>
+          </div> <!-- ends logo settings -->
+          
+          <div id="menubar">
+            <ul id="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="projects.html">Projects</a></li>
+                <div class = "dropdown"> <!--Dropdown menu that references each profile on the 'Our Team' page-->
+                  <li><button class="dropbtn">Our Team 
+                    <i class="fa fa-caret-down"></i>
+                  </button></li>
+                  <div class="dropdown-content">
+                    <a href="#DavidsProfile">David Purdham</a>
+                    <a href="#JamesProfile">James Serendip</a>
+                    <a href="#EdynsProfile">Edyn Hillman</a>
+                    <a href="#RaghadsProfile">Raghad Estanbouli</a>
+                  </div>
+                </div> 
+            </ul>
+          </div> <!-- ends menu bar setting -->
+        <script> 
+            $(document).ready(function(){
+              $("#flip").click(function(){
+                $("#panel").slideDown("slow");
               });
-              </script>  
-</div> <!-- ends header section -->
-<div id="main">
+            });
+            </script> 
+          <script> 
+          $(document).ready(function(){
+            $("#flipJS").click(function(){
+              $("#panelJS").slideDown("slow");
+            });
+          });
+          </script> 
+          <script> 
+            $(document).ready(function(){
+              $("#flipEH").click(function(){
+                $("#panelEH").slideDown("slow");
+              });
+            });
+            </script>  
+                <script> 
+                  $(document).ready(function(){
+                    $("#flipRE").click(function(){
+                      $("#panelRE").slideDown("slow");
+                    });
+                  });
+                  </script>  
+    </div> <!-- ends header section -->
+
     <section class="profilepage" id="David">
       <a id="DavidProfile">
       <figure id="PhotoDP">
@@ -158,14 +158,14 @@
     </section>
     <button onclick="topFunction()" id="topreturnBtn" title="Go to top">Top</button>  
 <!-- footer-->
+
+  </div>
     <div id="footer">
       <footer>
         <p><a href="index.html">Home</a><span> | </span><a href="ourteam.html">Our Team</a><span> | </span><a href="services.html">Services</a><span> | </span><a href="projects.html">Projects</a></p>
         <p>Copyright &copy; simplestyle_banner <span> | </span><a href="http://validator.w3.org/check?uri=referer">HTML5</a><span> | </span><a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a><span> | </span><a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a> </p>
       </footer>
     </div>
-  </div>
-
 </body>
 </html>
 

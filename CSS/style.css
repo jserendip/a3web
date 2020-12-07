@@ -204,9 +204,9 @@ ul#menu
       margin-right: 2%;
       margin-left: 2%;
       grid-template-columns: 1fr 1fr;
-          padding-left: 0px;
-          position:absloute;
-          padding-bottom: 10%;
+      padding-left: 0px;
+      position:absloute;
+      padding-bottom: 10%;
 
     }
   }
@@ -354,7 +354,7 @@ margin-right: auto;
  .U-Container p:hover{
   color:#f7f2f2;
   font-family: "arial", sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   background: #3738383a;
   padding: 3%;
@@ -366,7 +366,7 @@ margin-right: auto;
  .S-Container p:hover{
   color:#f7f2f2;
   font-family: "arial", sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   background: #3738383a;
   padding: 3%;

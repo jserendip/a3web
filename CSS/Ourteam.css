@@ -7,13 +7,20 @@
   position: relative;
   border: 0.5px solid #f2f6f8;
   padding: 100px;
-  /*z-index: -1*/
 } 
 @media screen and (max-width:1380px) {
   .profilepage{
     height: auto;
-  }
+    width: auto;
+    padding: 10%;
+ }
+
 }
+
+
+
+
+
   #PhotoDP img{
     position: absolute;
     height: auto;
@@ -22,12 +29,16 @@
     box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
    }
    @media screen and (max-width:1380px) {
-    #PhotoDP img{
+    #PhotoDP,  img{
       position: relative;
-      max-width: 150%;
-      min-width: 100px;
+      max-width: 70%;
+      
+      top:auto;
     }
   }
+
+ 
+  
    #PhotoJS img{
     position: absolute;
     height: auto;
@@ -38,8 +49,8 @@
    @media screen and (max-width:1380px) {
     #PhotoJS img{
       position: relative;
-      max-width: 150%;
-      min-width: 100px;
+      max-width: 70%;
+      top:auto;
     }
   }
    #PhotoEH img{
@@ -52,8 +63,8 @@
    @media screen and (max-width:1380px) {
     #PhotoEH img{
       position: relative;
-      max-width: 150%;
-      min-width: 100px;
+      max-width: 70%;
+      top:auto;
     }
   }
    #PhotoRE img{
@@ -66,8 +77,8 @@
    @media screen and (max-width:1380px) {
     #PhotoRE img{
       position: relative;
-      max-width: 150%;
-      min-width: 100px;
+      width: 70%;
+      top:auto;
     }
   }
   .profile_text{
@@ -81,11 +92,27 @@
     .profile_text{
       position: relative;
       left: auto;
+      padding-right: 0%;
+      left: 0px;
+      text-align: center;
+      
     }
   }
+
+
+ 
   .profile_text p{
     padding-right: 25%;
     overflow:auto;
+  }
+
+  @media screen and (max-width:1380px) {
+    .profile_text p{
+      padding-right: 0%;
+      overflow:scroll;
+      font-size: 70%;
+      text-align: left;
+    }
   }
 
   #panel, #flip {
@@ -106,6 +133,10 @@
   @media screen and (max-width:1380px) {
     #panel, #flip{
       position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
+      
     }
   }
   #panel {
@@ -122,6 +153,9 @@
   @media screen and (max-width:1380px) {
     #panel{
       position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
     }
   }
   #panelJS, #flipJS {
@@ -142,6 +176,9 @@
   @media screen and (max-width:1380px) {
     #panelJS, #flipJS{
       position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
     }
   }
   #panelJS {
@@ -158,6 +195,9 @@
   @media screen and (max-width:1380px) {
     #panelJS{
       position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
     }
   }
   #panelEH, #flipEH {
@@ -178,6 +218,9 @@
   @media screen and (max-width:1380px) {
     #panelEH, #flipEH{
       position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
     }
   }
   #panelEH {
@@ -194,6 +237,9 @@
   @media screen and (max-width:1380px) {
     #panelEH{
       position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
     }
   }
   #panelRE, #flipRE {
@@ -214,6 +260,9 @@
   @media screen and (max-width:1380px) {
     #panelRE, #flipRE{
       position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
     }
   }
   #panelRE {
@@ -230,6 +279,9 @@
   @media screen and (max-width:1380px) {
     #panelRE{
       position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
     }
   }
 
@@ -256,4 +308,9 @@
     text-shadow: 3px 3px 3px #084081;
   }
 
-
+  @media screen and (max-width:1380px) {
+    h3 {
+      font: 1em sans-serif;
+      width: fit-content;
+    }
+  }
