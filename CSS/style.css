@@ -1,5 +1,5 @@
 /*  CSS page for EHPS web page  -- all team members contrinuted */
-/* All Responsive Design elements shown are owned by DAvid Purdham */
+/* All Responsive Design elements shown are owned by David Purdham inspired by w3schools*/
 /* Raghad Estanbouli is the CSS Controller - overseeing integration of all design CSS
 elements among contributing team members  -- individual elements design by other team
 members indicated by comments throughout */
@@ -24,7 +24,7 @@ p
 img
 { border: 0;}
 
-h1, h2, h3, h5, h6     /* heading style types */
+h1, h2, h3, h4, h5, h6 
 { color: #362C20;
   letter-spacing: 0em;
   padding: 0 0 5px 0;}
@@ -44,27 +44,13 @@ h3
 { font-size: 140%;
   padding: 5px 0 0 0;}
 
+h4, h6
+{ color: #009FBC;
+  padding: 0 0 5px 0;
+  font: normal 110% arial;
+  text-transform: uppercase;}
 
-
-  h5{
-    font: 2em sans-serif;
-    font-family: "Sofia", sans-serif;
-    text-shadow: 3px 3px 3px #084081;
-  }
-
-  @media screen and (max-width:1380px) {
-    h5 {
-      font: 1.5em sans-serif;
-     }
-  }
-
-  h6
-  { color: #009FBC;
-    padding: 0 0 5px 0;
-    font: normal 110% arial;
-    text-transform: uppercase;}
-
-  h6
+h5, h6
 { color: #888;
   font: normal 95% arial;
   letter-spacing: normal;
@@ -94,6 +80,17 @@ ol
 ol li
 { margin: 0 0 11px 0;}
 
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+
 
 #main, #logo, #menubar, #site_content, #footer
 { margin-left: auto; 
@@ -112,7 +109,7 @@ ol li
   }
 
 
-  #banner   
+  #banner
   {  
     width: auto;
     height: 850px;
@@ -264,6 +261,9 @@ ul#menu li.selected a
 { height: 20px;
   padding: 6px 35px 5px 28px;}
 
+ul#menu li.selected
+{ margin: 1px 2px 0 0;
+  background: #5A5A5A url(tab_selected.png) no-repeat 0 0;}
 
 ul#menu li.selected a
 { 
@@ -492,21 +492,8 @@ margin-right: auto;
   text-decoration: none;}
 
 /*Edyn Drop down bar 12/01 */
-/* adapted from from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+/* borrowed from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 /* creates hidden dropdown container */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: right;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 .dropdown
 { float: left;
   overflow: hidden;}
@@ -991,3 +978,14 @@ margin-right: auto;
     background: #2b8dbedf;
   }
 
+  h3{
+    font: 2em sans-serif;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #084081;
+  }
+
+  @media screen and (max-width:1380px) {
+    h3 {
+      font: 1.5em sans-serif;
+     }
+  }
