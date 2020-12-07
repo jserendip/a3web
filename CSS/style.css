@@ -225,7 +225,6 @@ ol li
       top:120%;
       width: fit-content;
       right: 0%;
-      height: 20%;
       padding-bottom: 20px;
       position: relative;
 
@@ -332,9 +331,14 @@ ul#menu li a:hover
     padding-bottom: 2%;
     font-size:2em;
     color: #f7fcf0;
-  
-   
+     }
+
+     @media screen and (max-width:768px) {
+      .center{
+        padding-top:40% ;
+      }
     }
+
 /*centers the services page environmental section image */
 .pcenter
   {text-align:center;
