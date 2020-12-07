@@ -13,11 +13,11 @@ function oldsat()  {
 	document.getElementById("satimage").src="images/ricelakeuncorrected.JPG";
 	}
 
-/* function to show fun facts on button click  
-from w3schools example*/
-
-
-//Get return to top of screen button (adapted from w3schools):
+/* function to show legend on poplation density map */
+function showleg()  {
+	document.getElementById("legend").src="images/ricelakeuncorrected.JPG";
+	}
+/* return to top of screen button (adapted from w3schools): */
 var mybutton = document.getElementById("topreturnBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
