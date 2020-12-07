@@ -21,7 +21,7 @@
 <body>
   
   <div id="main">
-    <div id="header">
+    <div id="header">  <!--this begins our header with logo and title and navigation-->
 	    
       <div id="logo">
         <div id="logo_text">
@@ -34,13 +34,12 @@
        
       <div id="menubar">
         <ul id="menu">
-             <!--put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+             <!--Edyn Hillman owns navbar -->
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="projects.html">Projects</a></li>
             <div class = "dropdown"> 
               <li><button class="dropbtn">Our Team        <!--Dropdown menu that references each profile on the 'Our Team' page-->
-                <i class="fa fa-caret-down"></i>
               </button></li>
               <div class="dropdown-content">
                 <a href="ourteam.html#DavidsProfile">David Purdham</a>
@@ -55,15 +54,14 @@
     </div> <!-- ends header section -->
 
 
-
+    <!-- This page layout is owned by Raghad Estanbouli-->
       <div class="banner2">
       
       <!-- James Serendip owns the following "content" section-->
-      <!--div id="1content"--> 
-        <!-- insert the page content here -->
-        <!-- David editing page format 12/01/20-->
-        <section class=ProjectSection id="RS">
+        <!-- James Serendip owns javascript in this section-->
+        <section class=ProjectSection>
           <div class="Project-Photo">
+            <!-- javascript references 2 functions on jscode.js page to swap images on mouse over-->
             <img src= "images/ricelakeuncorrected.JPG" alt="Remote Sensing" id="satimage" onmouseover="newsat()" onmouseout="oldsat()"> 
           </div>
           <div class=project_text>
@@ -80,7 +78,7 @@
             </p>
           </div>  
         </section>
-        <section class=ProjectSection id="Geovis">
+        <section class=ProjectSection>  <!--David Purdham owns content-->
           <div class="Project-Photo">
             <img src= "images/Census10000.jpg" alt="Geovisualization">
           </div>
@@ -97,8 +95,8 @@
             </p>
           </div>
         </section>
-        <section class=ProjectSection id="servey">
-          <div class="Project-Photo">
+        <section class=ProjectSection>
+          <div class="Project-Photo">   <!--This content is owned by Edyn Hillman-->
             <img src= "images/surveyimage.jpg" alt="Surveying and CAD Mapping">
           </div>
           <div class=project_text>
@@ -114,7 +112,7 @@
         </section>
       </div> 
       <div class="banner2">
-        <section class=ProjectSection id="Qualitative">
+        <section class=ProjectSection>     <!--this content is owned by Raghad Estanbouli-->
           <div class="Project-Photo">
             <img src= "images/Qualitative.jpg" alt="Landuse Map">
           </div>
@@ -126,12 +124,12 @@
               </p>
             </div>  
           </section>
-          <section class=ProjectSection id="Qualitative100k">
+          <section class=ProjectSection>
             <div class="Project-Photo">
-              <img src= "images/Qualitative100k.jpg" alt="Qualitative Map">
+              <img src= "images/Qualitative100k.jpg" alt="Qualitative Map">     <!--image owned by Raghad Estanbouli-->
             </div>
             <div class=project_text>
-              <h6>Cartographic Generalization</h6>
+              <h6>Cartographic Generalization</h6>  <!--text owned by James Serendip-->
               <p>
                 Though we now have access to a wealth of data, sometimes analysis can be hindered by having TOO 
                 MUCH information.  When analysis depends upon cartographic visualization, it is important to be
@@ -142,12 +140,12 @@
               </p>
             </div>
           </section>
-          <section class=ProjectSection id="Model">
+          <section class=ProjectSection>   <!--Raghad Estanbouli owns this image-->
             <div class="Project-Photo">
               <img src= "images/Model.jpg" alt="Model Builder">
             </div>
             <div class=project_text>
-              <h6>Model Building</h6>
+              <h6>Model Building</h6>    <!-- James Serendip owns this text-->
               <p>
                 Many GIS processes involve the repeated use of sequences of geoprocessing tools.  Here we see 
                 the application of a Model Building structure (in ESRI's ArcGIS Pro software) to visually construct
