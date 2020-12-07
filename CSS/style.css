@@ -247,7 +247,6 @@ ul#menu
       margin-left: 2%;
       grid-template-columns: 1fr 1fr;
       padding-left: 0px;
-      position:absolute;
       padding-bottom: 10%;
 
     }
