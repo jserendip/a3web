@@ -279,8 +279,13 @@ ul#menu li.selected
 { margin: 1px 2px 0 0;
   background: #5A5A5A url(tab_selected.png) no-repeat 0 0;}
 
-ul#menu li.selected a, ul#menu li.selected a:hover
-{ /*background: #00C6F0*/ url(tab_selected.png) no-repeat 100% 0;
+ul#menu li.selected a
+{ 
+  color: #FFF;}
+
+
+ul#menu li.selected a:hover
+{ 
   color: #FFF;}
 
 ul#menu li a:hover
