@@ -112,7 +112,8 @@ ol li
     width: auto;
     height: 850px;
     display: block;
-    background: #7bccc4e3;;
+    background: #7bccc4e3;
+
     
     }
 
@@ -216,7 +217,7 @@ ol li
 { top:80%;
   width: 100%;
   right: 20%;
-  height: 20%;
+  /*height: 20%;*/
   padding-bottom: 20px;} 
 
   @media screen and (max-width:560px) {
