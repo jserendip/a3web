@@ -333,9 +333,9 @@ ul#menu li a:hover
     color: #f7fcf0;
      }
 
-     @media screen and (max-width:768px) {
+     @media screen and (max-width:300px) {
       .center{
-        padding-top:40% ;
+        padding-top:35% ;
       }
     }
 
