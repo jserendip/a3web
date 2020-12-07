@@ -206,6 +206,7 @@ ul#menu
       grid-template-columns: 1fr 1fr;
           padding-left: 0px;
           position:absloute;
+          padding-bottom: 10%;
 
     }
   }
@@ -322,11 +323,6 @@ margin-right: auto;
   
  }
 
- .U-Container h1{
-  padding-top: 5%;
-  margin-top: 0px;
-  
- }
 
 
 
