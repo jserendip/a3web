@@ -1,25 +1,27 @@
-<!DOCTYPE HTML>
+<!DOCTYPE HTML lang=en>
 
 <!-- page showing some of our projects to date (i.e. class work) -->
 
 <!-- This site is designed around  open source template simple banner from https://www.html5webtemplates.co.uk -->
 <!-- They request we leave their footer link for attribution -->
+<!-- The page was worked on by the entire team: David Purdham, Raghad Estanbouli, Edyn Hillman and James Serendip-->
+<!-- Created in November/December 2020 for GEOM101 Web Design @ Fleming College-->
 <html>
 
-<head>
+<head>    <!-- in the head section we set for responsive coding, include metatags, load our CSS file, load our javascript file -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>EHPS Consulting</title>
   <meta name="keywords" content="GIS, Data Management, Remote Sensing, Cartography, GIS Applications" />
   <link rel="stylesheet" type="text/css" href="CSS/style.css" />
-  <script src="js/jscode.js"> </script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="js/jscode.js"> </script> 
 
 
 </head>
 <!--1:46pm Edyn-->
 <body>
   
-    <div id="header">
+  <div id="main">
+    <div id="header">  <!--this begins our header with logo and title and navigation-->
 	    
       <div id="logo">
         <div id="logo_text">
@@ -28,16 +30,16 @@
           <h2>Geographic Information Solutions</h2>
         </div>
       </div> <!-- ends logo settings -->
-	    
+     
+       
       <div id="menubar">
         <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+             <!--Edyn Hillman owns navbar -->
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="projects.html">Projects</a></li>
-            <div class = "dropdown"> <!--Dropdown menu that references each profile on the 'Our Team' page-->
-              <li><button class="dropbtn">Our Team 
-                <i class="fa fa-caret-down"></i>
+            <div class = "dropdown"> 
+              <li><button class="dropbtn">Our Team        <!--Dropdown menu that references each profile on the 'Our Team' page-->
               </button></li>
               <div class="dropdown-content">
                 <a href="ourteam.html#DavidsProfile">David Purdham</a>
@@ -47,22 +49,20 @@
               </div>
             </div> 
         </ul>
-      </div> <!-- ends menu bar setting -->
+      </div>  <!--ends menu bar setting --> 
 	    
     </div> <!-- ends header section -->
-	  
-   	  
-    <!--div id="site_content"-->
-    <div id="main">
-      <div id="banner2">
+
+
+    <!-- This page layout is owned by Raghad Estanbouli-->
+      <div class="banner2">
       
       <!-- James Serendip owns the following "content" section-->
-      <!--div id="1content"--> 
-        <!-- insert the page content here -->
-        <!-- David editing page format 12/01/20-->
-        <section class=ProjectSection id="RS">
+        <!-- James Serendip owns javascript in this section-->
+        <section class=ProjectSection>
           <div class="Project-Photo">
-            <img src= "images/ricelakeuncorrected.JPG" alt="Remote Sensing" id="1satimage" onmouseover="newsat()" onmouseout="oldsat()"> 
+            <!-- javascript references 2 functions on jscode.js page to swap images on mouse over-->
+            <img src= "images/ricelakeuncorrected.JPG" alt="Remote Sensing" id="satimage" onmouseover="newsat()" onmouseout="oldsat()"> 
           </div>
           <div class=project_text>
             <h6>Remote Sensing</h6>
@@ -70,24 +70,24 @@
               This image shows a Landsat satellite image of the Rice Lake, Ontario area in panchromatic greyscale
               from an older imaging system that did not have good geolocational coordination.
               If we want to extract useful data from an image like this, it needs to be geocorrected
-              to fit with cooridate systems for referencing.  Using an overlay of projected and 
+              to fit with coordinate systems for referencing.  Using an overlay of projected and 
               georeferenced road networks (shown in red) we can see how much the original satellite image
               is "off" from the correct coordinates.  This road network was used to provide Ground Control
-              Points by which the old satellite image could then be geocorrected to fit the road networkand
-              its coordinate system.  Mouse Over the photo to see how the image looks after geoprocessing.
+              Points by which the old satellite image could then be geocorrected to fit the road network and
+              its coordinate system.  <strong>Mouse Over</strong> the photo to see how the image looks after geoprocessing.
             </p>
           </div>  
         </section>
-        <section class=ProjectSection id="Geovis">
+        <section class=ProjectSection>  <!--David Purdham owns content-->
           <div class="Project-Photo">
-            <img src= "images/Census10000.jpg" alt="Geovisualization" id="1popdensity" class=1contentp2>
+            <img src= "images/Census10000.jpg" alt="Geovisualization">
           </div>
           <div class=project_text>
             <h6>Geovisualization</h6>
             <p>
                This map illustrates the distribution of population density for St. Catharines, Ontario using
               2016 Census data. The data was extracted from Statistics Canada along with a shapefile for dissemination blocks
-              which were then joined together in ArcGIS Pro. The dissemination blocks filed was clipped to the study area 
+              which were then joined together in ArcGIS Pro. The dissemination blocks file was clipped to the study area 
               and the population density was calculated and added as a new field. The data could then be displayed for each 
               dissemination block in the study area and displayed using visual hierarchy with the most dense areas darker than 
               less dense areas.
@@ -95,9 +95,9 @@
             </p>
           </div>
         </section>
-        <section class=ProjectSection id="servey">
-          <div class="Project-Photo">
-            <img src= "images/surveyimage.jpg" alt="Surveying and CAD Mapping" id="1survey" >
+        <section class=ProjectSection>
+          <div class="Project-Photo">   <!--This content is owned by Edyn Hillman-->
+            <img src= "images/surveyimage.jpg" alt="Surveying and CAD Mapping">
           </div>
           <div class=project_text>
             <h6>Surveying and CAD Mapping</h6>
@@ -111,52 +111,49 @@
           </div>
         </section>
       </div> 
-      <div id="banner3">
-        <section class=ProjectSection id="Qualitative">
+      <div class="banner2">
+        <section class=ProjectSection>     <!--this content is owned by Raghad Estanbouli-->
           <div class="Project-Photo">
-            <img src= "images/Qualitative.jpg" alt="Landuse Map" id="1popdensity" class=1contentp2>
+            <img src= "images/Qualitative.jpg" alt="Landuse Map">
           </div>
             <div class=project_text>
-              <h6>LandUse Map</h6>
+              <h6>Land Use Map</h6>
               <p>
                 This image shows a Land Use map that covers Quebec City and its surrounding. This map used the UTM projection NAD 83 Zone 19.
-                This map produced in order to study the crowded residential area and is used as a part of subsequential maps of the master Planning project for the municipality of Quebec city   
+                The map was produced in order to study the crowded residential area and is used as a part of subsequent maps of the Master Planning project for the municipality of Quebec city.   
               </p>
             </div>  
           </section>
-          <section class=ProjectSection id="Qualitative100k">
+          <section class=ProjectSection>
             <div class="Project-Photo">
-              <img src= "images/Qualitative100k.jpg" alt="Qualitative Map" id="1popdensity" class=1contentp2>
+              <img src= "images/Qualitative100k.jpg" alt="Qualitative Map">     <!--image owned by Raghad Estanbouli-->
             </div>
             <div class=project_text>
-              <h6>Remote Sensing</h6>
+              <h6>Cartographic Generalization</h6>  <!--text owned by James Serendip-->
               <p>
-                This image shows a Landsat satellite image of the Rice Lake, Ontario area in panchromatic greyscale
-                from an older imaging system that did not have good geolocational coordination.
-                If we want to extract useful data from an image like this, it needs to be geocorrected
-                to fit with cooridate systems for referencing.  Using an overlay of projected and 
-                georeferenced road networks (shown in red) we can see how much the original satellite image
-                is "off" from the correct coordinates.  This road network was used to provide Ground Control
-                Points by which the old satellite image could then be geocorrected to fit the road networkand
-                its coordinate system.  Mouse Over the photo to see how the image looks after geoprocessing.
+                Though we now have access to a wealth of data, sometimes analysis can be hindered by having TOO 
+                MUCH information.  When analysis depends upon cartographic visualization, it is important to be
+                able to thin that information down appropriately to the working scale.  This image is a larger
+                scale version of the previous Land Use map, but at this larger scale the road networks and other
+                features have been appropriately generalized to convey the focus without the reader having to sort 
+                through too much clutter on the map.
               </p>
             </div>
           </section>
-          <section class=ProjectSection id="Model">
+          <section class=ProjectSection>   <!--Raghad Estanbouli owns this image-->
             <div class="Project-Photo">
-              <img src= "images/Model.jpg" alt="Model Builder" id="1survey" >
+              <img src= "images/Model.jpg" alt="Model Builder">
             </div>
             <div class=project_text>
-              <h6>Remote Sensing</h6>
+              <h6>Model Building</h6>    <!-- James Serendip owns this text-->
               <p>
-                This image shows a Landsat satellite image of the Rice Lake, Ontario area in panchromatic greyscale
-                from an older imaging system that did not have good geolocational coordination.
-                If we want to extract useful data from an image like this, it needs to be geocorrected
-                to fit with cooridate systems for referencing.  Using an overlay of projected and 
-                georeferenced road networks (shown in red) we can see how much the original satellite image
-                is "off" from the correct coordinates.  This road network was used to provide Ground Control
-                Points by which the old satellite image could then be geocorrected to fit the road networkand
-                its coordinate system.  Mouse Over the photo to see how the image looks after geoprocessing.
+                Many GIS processes involve the repeated use of sequences of geoprocessing tools.  Here we see 
+                the application of a Model Building structure (in ESRI's ArcGIS Pro software) to visually construct
+                reusable tools for commonly used workflows.  This is a tool sequence for analyzing raster data for
+                site suitability (in this case to establish optimal territory for snail habitats based on elevation,
+                geology and vegetation).  Combining Model Builder technology with programming in Python using arcpy
+                we are able to systematize, and to some degree automate, many common GIS function, and so increase 
+                efficiency.
               </p>
             </div>
           </section>
