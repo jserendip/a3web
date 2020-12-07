@@ -506,6 +506,7 @@ margin-right: auto;
     .dropdown{
       width: 100%;
      padding: 0px 0px 0px 0px;
+     white-space: nowrap;
     }
   }
 
