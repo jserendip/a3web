@@ -1,8 +1,6 @@
 html
 { height: 100%;}
 
-/* { margin: 0;
-  padding: 0;} */
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
@@ -11,9 +9,10 @@ body
   color: #555;}
 
 p
-{ padding: 0 0 20px 0;
+{ 
   line-height: 1.7em;
-  overflow: auto
+  overflow: auto;
+  
 }
 
 img
@@ -59,12 +58,6 @@ a, a:hover
 a:hover
 { text-decoration: none;}
 
-/*
-blockquote
-{ margin: 20px 0; 
-  padding: 10px 20px 0 20px;
-  border: 1px solid #E5E5DB;
-  background: #FFF;}   */
 
 ul
 { margin: 2px 0 22px 17px;}
@@ -102,17 +95,17 @@ ol li
 
 #header
 { position: relative;
-  background: #4b4b4b url(back.png) repeat-x;
+  background: #4b4b4b ;
   height: auto;
   top: 0;
   padding: 2%;
   width: auto;
   }
-  @media screen and (max-width:560px) {
+  /*@media screen and (max-width:560px) {
     #header{
       height: 300px;
     }
-  }
+  }*/
 
   #banner
   {  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
@@ -139,9 +132,9 @@ ol li
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   z-index: 2;
   width: 90%;
   padding: 20px;
@@ -150,11 +143,40 @@ ol li
   } 
   @media screen and (max-width:560px) {
     #intro-content{
-      top: 100%;
+      top: 40%;
+      width: 76%;
+      overflow: scroll;
+      font-family: "arial", sans-serif;
+      height: auto;
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: #3738383a; /* Black w/opacity/see-through */
+      color: white;
+      font-size: 110%;
+      font-weight: normal;
+      border: 0px solid #f1f1f1;
+      box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+      height: 75%;
     }
   }
- 
 
+ /* #intro-content h1{
+    font: 2em sans-serif;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #084081;
+  }
+
+  
+
+
+  color:#f7f2f2;
+  font-family: "arial", sans-serif;
+  font-size: 100%;
+  text-align: center;
+  background: #3738383a;
+  padding: 3%;
+  box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+  overflow: auto;
+  margin: 1%;*/
 
 #logo
 { width: 880px;
@@ -197,6 +219,21 @@ ol li
   height: 20%;
   padding-bottom: 20px;} 
 
+  @media screen and (max-width:560px) {
+    #menubar{
+      top:120%;
+      width: fit-content;
+      right: 0%;
+      height: 20%;
+      padding-bottom: 20px;
+      position: relative;
+
+    }
+  }
+
+
+
+
 ul#menu
 { float: right;
   margin: 0;}
@@ -205,16 +242,22 @@ ul#menu
     ul#menu{
       display:grid;
       margin-top: 50px;
-      
+      margin-right: 2%;
+      margin-left: 2%;
+      grid-template-columns: 1fr 1fr;
+      padding-left: 0px;
+      position:absolute;
+      padding-bottom: 10%;
+
     }
   }
 
 ul#menu li
 { float: left;
-  padding: 0 0 0 9px;
+  padding: 0 0 0 0px;
   list-style: none;
   margin: 1px 2px 0 0;
-  background: #5A5A5A url(tab.png) no-repeat 0 0;}
+  background: #5A5A5A;}
 
 ul#menu li a
 { font: normal 100% 'trebuchet ms', sans-serif;
@@ -225,6 +268,7 @@ ul#menu li a
   text-align: center;
   color: #FFF;
   text-decoration: none;
+ 
   background: #5A5A5A no-repeat 100% 0;} 
 
 ul#menu li.selected a
@@ -242,7 +286,30 @@ ul#menu li.selected a, ul#menu li.selected a:hover
 ul#menu li a:hover
 { color: #a8ddb5;}
 
+/* button code adapted from w3schools */
+#topreturnBtn {
+  /*display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(31, 182, 149); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
 
+#topreturnBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#test {
+  Display: none;
+}
 /* David editing page format 12/01/20 */
 
 #content
@@ -298,24 +365,67 @@ margin-right: auto;
   background: #7bccc4d7;
   width: 100%;
   height: 1000px;
+  
  }
- @media screen and (max-width: 800px){
-  .U-Container{
-    padding-bottom: 10px;
-    height: auto;}
-  }
+
+
+
+
+
+
+
+
+
 
  .U-Container p{
   color:#f7f2f2;
   font-family: "arial", sans-serif;
-  font-size: 1vw;
-  text-align: justify;
+  font-size: 110%;
+  text-align: center;
   background: #3738383a;
   padding: 3%;
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
-  overflow: hidden;
+  overflow: auto;
   margin: 1%;
 
+ }
+
+
+ @media screen and (max-width: 800px){
+  .U-Container p{
+    font-size: 100%;}
+ 
+  }
+
+
+
+
+
+
+
+
+ .U-Container p:hover{
+  color:#f7f2f2;
+  font-family: "arial", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  background: #3738383a;
+  padding: 3%;
+  box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+  overflow: auto;
+  margin: 1%;
+ }
+
+ .S-Container p:hover{
+  color:#f7f2f2;
+  font-family: "arial", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  background: #3738383a;
+  padding: 3%;
+  box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+  overflow: auto;
+  margin: 1%;
  }
 
  .S-Container{
@@ -323,21 +433,30 @@ margin-right: auto;
   width: 100%;
   height: 1000px;
  }
+
+
 /* .break{
   border: 20px solid #444643;
  }*/
  .S-Container p{
   color:#f7f2f2;
   font-family: "arial", sans-serif;
-  font-size: 1vw;
-  text-align: justify;
+  font-size: 110%;
+  text-align: center;
   background: #3738383a;
   padding: 3%;
   margin: 1%;
-
+  overflow: auto;
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
-  overflow: hidden;
+  
  }
+
+ @media screen and (max-width: 800px){
+  .S-Container p{
+    font-size: 100%;
+    overflow: scroll;}
+ 
+  }
 .contentp1
 {float: right;
   padding: 0 25% 0 0;
@@ -346,7 +465,7 @@ margin-right: auto;
 /* David Census image change 11-24 @ 2:10 */
 .contentp2 {
     float: right;
-}
+} 
 
 /* Edyn footer position and text padding change 12-01 */
 #footer
@@ -386,13 +505,26 @@ margin-right: auto;
 { float: left;
   overflow: hidden;}
 
+
+  
+
+  @media screen and (max-width:1100px) {
+    .dropdown button{
+      width: 50%;
+     padding: 0px 0px 0px 0px;
+     white-space: nowrap;
+    }
+  }
+
+
 .dropdown .dropbtn {
   
   height: 31px;
-  font-size: 12.8px;
+  font-size: 86%;
   border: none;
   outline: none;
   color: white;
+  width:fit-content;
   padding: 6px 35px 10px 28px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -404,10 +536,17 @@ margin-right: auto;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: fit-content;
   box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
   z-index: 3;
-  top: 90%;
+  top: 88%;
+}
+
+@media screen and (max-width:1100px) {
+  .dropdown-content{
+    top: 575%;
+    
+  }
 }
 
 /* Links inside the dropdown */
@@ -431,18 +570,20 @@ margin-right: auto;
 }
 
 /*pojects Page*/
-      #banner2
-    {  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
-    height: auto;
-    background: #7bccc4e3;
-    columns: 3;
-    display: flex;
-    align-items: inherit;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-      }
+    #banner2
+  {  
+  height: auto;
+  background: #7bccc4e3;
+  columns: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: inherit;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+    }
+    
 @media screen and (max-width:1100px) {
   #banner2{
     display:block;
@@ -484,10 +625,17 @@ columns:auto;
         border: 1px solid #e5e5db91;
         margin-left: 1%;
         margin-right: 1%;
-        
-
-
       }
+
+      @media screen and (max-width:1380px) {
+        .ProjectSection{
+          margin-left: 0%;
+          margin-right: 0%;
+        }
+      }
+
+
+
       .ProjectSection:hover{
         
         box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
@@ -498,6 +646,31 @@ columns:auto;
         padding-right: 12%;
         padding-left: 12%;
         padding-bottom: 5%;
+        text-align: center;
       }
 
-      
+      @media screen and (max-width:1380px) {
+        .project_text p{
+          font-family: "arial", sans-serif;
+          height: auto;
+          
+          color: white;
+          font-weight: normal;
+          border: 0px solid #f1f1f1;
+          top: 10%;
+          text-align: center;
+          height: auto;
+          padding-right: 12%;
+          padding-left: 12%;
+          padding-bottom: 12%;
+        }
+      }
+
+
+      h6{
+        text-align: center;
+        color: rgb(236, 232, 232);
+        font-weight:800;
+        font-size: medium;
+
+      }

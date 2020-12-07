@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="CSS/style.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script> 
+<!-- <script> 
 $(document).ready(function(){
   $("#flip").click(function(){
     $("#panel").slideToggle("slow");
@@ -26,7 +27,18 @@ $(document).ready(function(){
 <body>
  
 <div id="flip">Click to slide the panel down or up</div>
-<div id="panel">Hello world!</div>
+<div id="panel">Hello world!</div> -->
+<script>
+$(document).ready(function(){
+  $("#1popdensity").mouseenter(function(){
+    alert("activated");
+    // $("#test").slideDown("slow");
+  }); 
+</script>
+</head>
+<div id=1popdensity>
+<img src= "images/Census10000.jpg" id="1popdensity" class=1contentp2>
+  <img src= "images/David.jpg" id="test" class=1contentp2> </div>
 
 </body>
 </html>
