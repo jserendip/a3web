@@ -30,7 +30,7 @@
     box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
    }
    @media screen and (max-width:1380px) {
-    #PhotoDP,  img{
+    #PhotoDP  img{
       position: relative;
       max-width: 70%;
       
@@ -241,6 +241,7 @@
       padding:0;
       left: 0px;
       max-width: fit-content;
+      top:200px
     }
   }
   #panelRE, #flipRE {
@@ -264,6 +265,7 @@
       padding:0;
       left: 0px;
       max-width: fit-content;
+      top:200%
     }
   }
   #panelRE {
@@ -312,6 +314,5 @@
   @media screen and (max-width:1380px) {
     h3 {
       font: 1em sans-serif;
-      width: fit-content;
-    }
+     }
   }

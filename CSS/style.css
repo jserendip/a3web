@@ -193,6 +193,21 @@ ol li
   height: 20%;
   padding-bottom: 20px;} 
 
+  @media screen and (max-width:560px) {
+    #menubar{
+      top:120%;
+      width: fit-content;
+      right: 0%;
+      height: 20%;
+      padding-bottom: 20px;
+      position: relative;
+
+    }
+  }
+
+
+
+
 ul#menu
 { float: right;
   margin: 0;}
