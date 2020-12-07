@@ -146,7 +146,7 @@ ol li
       top: 40%;
       width: 76%;
       overflow: scroll;
-      height: 95%;
+      height: auto;
     }
   }
 
