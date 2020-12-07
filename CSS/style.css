@@ -1,10 +1,11 @@
 /*  CSS page for EHPS web page  -- all team members contrinuted */
+/* This CSS is adapted from an open source template: simple banner from https://www.html5webtemplates.co.uk */
 /* All Responsive Design elements shown are owned by DAvid Purdham */
 /* Raghad Estanbouli is the CSS Controller - overseeing integration of all design CSS
 elements among contributing team members  -- individual elements design by other team
 members indicated by comments throughout */
 
-html
+html        /* This CSS is adapted from an open source template: simple banner from https://www.html5webtemplates.co.uk from this point through comment below*/
 { height: 100%;}
 
 
@@ -124,7 +125,7 @@ ol li
   
     #site_content
     { 
-      padding: 0px 0 0px 0;
+      padding: 0px 0 0px 0;      /* this is the end of CSS adapted from open source template */
     }
 
   
