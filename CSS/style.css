@@ -95,7 +95,7 @@ ol li
 
 #header
 { position: relative;
-  background: #4b4b4b url(back.png) repeat-x;
+  background: #4b4b4b ;
   height: auto;
   top: 0;
   padding: 2%;
@@ -254,10 +254,10 @@ ul#menu
 
 ul#menu li
 { float: left;
-  padding: 0 0 0 9px;
+  padding: 0 0 0 0px;
   list-style: none;
   margin: 1px 2px 0 0;
-  background: #5A5A5A url(tab.png) no-repeat 0 0;}
+  background: #5A5A5A;}
 
 ul#menu li a
 { font: normal 100% 'trebuchet ms', sans-serif;
@@ -501,6 +501,15 @@ margin-right: auto;
 { float: left;
   overflow: hidden;}
 
+
+  @media screen and (max-width:1100px) {
+    .dropdown{
+      width: 100%;
+     padding: 0px 0px 0px 0px;
+    }
+  }
+
+
 .dropdown .dropbtn {
   
   height: 31px;
@@ -519,10 +528,17 @@ margin-right: auto;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: fit-content;
   box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
   z-index: 3;
   top: 88%;
+}
+
+@media screen and (max-width:1100px) {
+  .dropdown-content{
+    top: 575%;
+    
+  }
 }
 
 /* Links inside the dropdown */
@@ -616,7 +632,7 @@ margin-right: auto;
           font-weight: normal;
           border: 0px solid #f1f1f1;
           top: 10%;
-          text-align: left;
+          text-align: center;
           height: auto;
           padding-right: 12%;
           padding-left: 12%;
