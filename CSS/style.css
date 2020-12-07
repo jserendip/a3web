@@ -11,9 +11,10 @@ body
   color: #555;}
 
 p
-{ padding: 0 0 20px 0;
+{ 
   line-height: 1.7em;
-  overflow: auto
+  overflow: auto;
+  
 }
 
 img
@@ -205,7 +206,9 @@ ul#menu
     ul#menu{
       display:grid;
       margin-top: 50px;
-      
+      margin-right: 2%;
+      margin-left: 2%;
+      grid-template-columns: 1fr 1fr;
     }
   }
 
@@ -225,6 +228,7 @@ ul#menu li a
   text-align: center;
   color: #FFF;
   text-decoration: none;
+ 
   background: #5A5A5A no-repeat 100% 0;} 
 
 ul#menu li.selected a
@@ -303,19 +307,48 @@ margin-right: auto;
   .U-Container{
     padding-bottom: 10px;
     height: auto;}
+ 
   }
+
+
+
+
 
  .U-Container p{
   color:#f7f2f2;
   font-family: "arial", sans-serif;
-  font-size: 1vw;
-  text-align: justify;
+  font-size: 100%;
+  text-align: center;
   background: #3738383a;
   padding: 3%;
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
-  overflow: hidden;
+  overflow: auto;
   margin: 1%;
 
+ }
+
+ .U-Container p:hover{
+  color:#f7f2f2;
+  font-family: "arial", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  background: #3738383a;
+  padding: 3%;
+  box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+  overflow: auto;
+  margin: 1%;
+ }
+
+ .S-Container p:hover{
+  color:#f7f2f2;
+  font-family: "arial", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  background: #3738383a;
+  padding: 3%;
+  box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+  overflow: auto;
+  margin: 1%;
  }
 
  .S-Container{
@@ -329,11 +362,12 @@ margin-right: auto;
  .S-Container p{
   color:#f7f2f2;
   font-family: "arial", sans-serif;
-  font-size: 1vw;
-  text-align: justify;
+  font-size: 110%;
+  text-align: center;
   background: #3738383a;
   padding: 3%;
   margin: 1%;
+  overflow: scroll;
 
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
   overflow: hidden;
@@ -431,18 +465,20 @@ margin-right: auto;
 }
 
 /*pojects Page*/
-      #banner2
-    {  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
-    height: auto;
-    background: #7bccc4e3;
-    columns: 3;
-    display: flex;
-    align-items: inherit;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-      }
+    #banner2
+  {  
+  height: auto;
+  background: #7bccc4e3;
+  columns: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: inherit;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+    }
+    
 @media screen and (max-width:1100px) {
   #banner2{
     display:block;
@@ -480,6 +516,13 @@ margin-right: auto;
         padding-right: 12%;
         padding-left: 12%;
         padding-bottom: 5%;
+        text-align: center;
       }
 
-      
+
+      h6{
+        text-align: center;
+        color: rgb(236, 232, 232);
+        font-weight:800;
+        font-size: large;
+      }
