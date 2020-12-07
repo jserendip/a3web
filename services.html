@@ -26,14 +26,18 @@
 	    
       <div id="menubar">
         <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
+            <div class="dropdown">
+              <li><button class="dropbtn">Services</button></li>
+              <div class="dropdown-content">
+                <a href="#Urban">Urban Services</a>
+                <a href="#Env">Environmental Services</a>
+              </div>
+            </div>
           <li><a href="projects.html">Projects</a></li>
-            <div class = "dropdown"> <!--Dropdown menu that references each profile on the 'Our Team' page-->
-              <li><button class="dropbtn">Our Team 
-                <i class="fa fa-caret-down"></i>
-              </button></li>
+            <div class = "dropdown"> 
+              <li><button class="dropbtn">Our Team        <!--Dropdown menu that references each profile on the 'Our Team' page-->
+                </button></li>
               <div class="dropdown-content">
                 <a href="ourteam.html#DavidsProfile">David Purdham</a>
                 <a href="ourteam.html#JamesProfile">James Serendip</a>
@@ -42,18 +46,19 @@
               </div>
             </div> 
         </ul>
-      </div> <!-- ends menu bar setting -->
+      </div>  <!--ends menu bar setting --> 
 	    
     </div> <!-- ends header section -->
    
     <!-- insert the page content here -->
     <div class="U-Container">
-    
+    <a id="Urban">
     <h1 class=center>Urban Services</h1>
     
     <div class = "servicesimg">
       <img src= "images/urbanserv.jpg" alt="image of city skyline" id="urbservices" class="imgresponsive">
       </div>
+    </a>
     <!-- Insert image here-->
     <div class=pcenter>
       <p>Urban planning services are provided to help developers and planners gather the right data to assist their decision
@@ -70,6 +75,7 @@
       </div>
     </div>
   <div class="break"></div>
+    <a id="Env">
     <div class="S-Container">
       <h1 class=center>Environmental Services</h1>
     
@@ -77,7 +83,7 @@
     <div class = "servicesimg">
     <img src= "images/whistler_environmentalservices(1).jpg" alt="image of mountain lake" id="envservices" class="imgresponsive">
     </div>
-    
+    </a>
     <div class=pcenter>
       <p>Environmental Impact Analysis- Using spatial analysis and geovisualization we can analyze the impacts of construction,
         roads, pipelines, and other activities that are potentially harmful to the environment. We are available to help inform natural resource policies and predict future impacts.

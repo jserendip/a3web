@@ -34,13 +34,18 @@
        
       <div id="menubar">
         <ul id="menu">
-             <!--Edyn Hillman owns navbar -->
           <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
+            <div class="dropdown">
+              <li><button class="dropbtn">Services</button></li>
+              <div class="dropdown-content">
+                <a href="services.html#Urban">Urban Services</a>
+                <a href="services.html#Env">Environmental Services</a>
+              </div>
+            </div>
           <li><a href="projects.html">Projects</a></li>
             <div class = "dropdown"> 
               <li><button class="dropbtn">Our Team        <!--Dropdown menu that references each profile on the 'Our Team' page-->
-              </button></li>
+                </button></li>
               <div class="dropdown-content">
                 <a href="ourteam.html#DavidsProfile">David Purdham</a>
                 <a href="ourteam.html#JamesProfile">James Serendip</a>

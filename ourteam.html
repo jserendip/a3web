@@ -30,12 +30,17 @@
           <div id="menubar">
             <ul id="menu">
               <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
+                <div class="dropdown">
+                  <li><button class="dropbtn">Services</button></li>
+                  <div class="dropdown-content">
+                    <a href="services.html#Urban">Urban Services</a>
+                    <a href="services.html#Env">Environmental Services</a>
+                  </div>
+                </div>
               <li><a href="projects.html">Projects</a></li>
-                <div class = "dropdown"> <!--Dropdown menu that references each profile on the 'Our Team' page-->
-                  <li><button class="dropbtn">Our Team 
-                    <i class="fa fa-caret-down"></i>
-                  </button></li>
+                <div class = "dropdown"> 
+                  <li><button class="dropbtn">Our Team        <!--Dropdown menu that references each profile on the 'Our Team' page-->
+                    </button></li>
                   <div class="dropdown-content">
                     <a href="#DavidsProfile">David Purdham</a>
                     <a href="#JamesProfile">James Serendip</a>
@@ -44,7 +49,7 @@
                   </div>
                 </div> 
             </ul>
-          </div> <!-- ends menu bar setting -->
+          </div>  <!--ends menu bar setting --> 
         <script> 
             $(document).ready(function(){
               $("#flip").click(function(){
