@@ -142,7 +142,7 @@ ol li
   } 
   @media screen and (max-width:560px) {
     #intro-content{
-      top: 80%;
+      top: 100%;
     }
   }
 
@@ -375,7 +375,12 @@ margin-right: auto;
 #footer p
 { line-height: 0.4em;
   padding: 10px 0 5px 0px;}
-
+  @media screen and (max-width:800px) {
+    #footer a, span{
+      display:none;
+      columns:auto;
+    }
+  }
 #footer a
 { color: #A8AA94;
 
@@ -412,7 +417,7 @@ margin-right: auto;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 3;
   top: 90%;
 }
 
