@@ -1,3 +1,9 @@
+/*  CSS page for EHPS web page  -- all team members contrinuted */
+/* All Responsive Design elements shown are owned by DAvid Purdham */
+/* Raghad Estanbouli is the CSS Controller - overseeing integration of all design CSS
+elements among contributing team members  -- individual elements design by other team
+members indicated by comments throughout */
+
 html
 { height: 100%;}
 
@@ -50,7 +56,7 @@ h5, h6
   letter-spacing: normal;
   padding: 0 0 15px 0;}
 
-a, a:hover
+a, a:hover                             /* styling for shifting look of navbar buttons on hover over */
 { outline: none;
   text-decoration: underline;
   color: #AEB002;}
@@ -101,14 +107,10 @@ ol li
   padding: 2%;
   width: auto;
   }
-  /*@media screen and (max-width:560px) {
-    #header{
-      height: 300px;
-    }
-  }*/
+
 
   #banner
-  {  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
+  {  
     width: auto;
     height: 850px;
     display: block;
@@ -160,24 +162,7 @@ ol li
     }
   }
 
- /* #intro-content h1{
-    font: 2em sans-serif;
-    font-family: "Sofia", sans-serif;
-    text-shadow: 3px 3px 3px #084081;
-  }
 
-  
-
-
-  color:#f7f2f2;
-  font-family: "arial", sans-serif;
-  font-size: 100%;
-  text-align: center;
-  background: #3738383a;
-  padding: 3%;
-  box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
-  overflow: auto;
-  margin: 1%;*/
 
 #logo
 { width: 880px;
@@ -196,13 +181,13 @@ ol li
   text-transform: none;
   margin: 0 0 0 9px;}
 
-#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover /* Changed by David @ 12:48 11/17/20 */
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover /* Owned by David Purdham */
 { padding: 22px 0 0 0;
   color: #2b8cbe;
   letter-spacing: 0.1em;
   text-decoration: none;}
 
-#logo_text h1 a .logo_colour /* Changed by David @ 12:48 11/17/20 */
+#logo_text h1 a .logo_colour /* Owned by David Purdham */
 { color: #7bccc4 ;}
 
 #logo_text a:hover .logo_colour
@@ -217,7 +202,6 @@ ol li
 { top:80%;
   width: 100%;
   right: 20%;
-  /*height: 20%;*/
   padding-bottom: 20px;} 
 
   @media screen and (max-width:560px) {
@@ -290,7 +274,8 @@ ul#menu li.selected a:hover
 ul#menu li a:hover
 { color: #a8ddb5;}
 
-/* button code adapted from w3schools */
+/* Owned by James Serendip - style for javascript button to return to top of page used 
+on Services and Our Team multipl scrolling pages button code adapted from w3schools */
 #topreturnBtn {
   /*display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
