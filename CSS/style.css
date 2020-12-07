@@ -108,7 +108,11 @@ ol li
   padding: 2%;
   width: auto;
   }
-
+  @media screen and (max-width:560px) {
+    #header{
+      height: 300px;
+    }
+  }
 
   #banner
   {  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
@@ -129,7 +133,6 @@ ol li
   
   #intro-content
   { 
-
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: #575a5a5d; /* Black w/opacity/see-through */
   color: white;
@@ -144,10 +147,12 @@ ol li
   padding: 20px;
   text-align: center;
   height: auto;
-
-    
   } 
-  
+  @media screen and (max-width:560px) {
+    #intro-content{
+      top: 80%;
+    }
+  }
  
 
 
@@ -186,15 +191,23 @@ ol li
   color: #a8ddb5;}
 
 #menubar
-{ position: absolute;
-  top:80%;
+{ top:80%;
   width: 100%;
   right: 20%;
-  height: 20%;} 
+  height: 20%;
+  padding-bottom: 20px;} 
 
 ul#menu
 { float: right;
   margin: 0;}
+
+  @media screen and (max-width:560px) {
+    ul#menu{
+      display:grid;
+      margin-top: 50px;
+      
+    }
+  }
 
 ul#menu li
 { float: left;
@@ -393,7 +406,7 @@ margin-right: auto;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 3;
   top: 90%;
 }
 
