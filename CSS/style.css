@@ -503,7 +503,7 @@ margin-right: auto;
     }
   }
 
-
+/* sets style for the dropdown categories, including color, padding, font and height */
 .dropdown .dropbtn {
   
   height: 31px;
@@ -514,11 +514,11 @@ margin-right: auto;
   width:fit-content;
   padding: 6px 35px 10px 28px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit; /* Important for alignment on mobile phones */
+  margin: 0; /* Important for alignment on mobile phones */
 }
 
-/* Dropdown content (hidden by default) */
+/* Dropdown content (hidden by default, only appears when navbar block is hovered over) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -536,7 +536,7 @@ margin-right: auto;
   }
 }
 
-/* Links inside the dropdown */
+/* Stylizes Links inside the dropdown by making them list vertically, making the font black, and applying padding */
 .dropdown-content a {
   float: none;
   color: black;
