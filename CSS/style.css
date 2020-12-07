@@ -195,6 +195,7 @@ ol li
 
 ul#menu
 { float: right;
+  padding-left: 0px;
   margin: 0;}
 
   @media screen and (max-width:560px) {
@@ -204,6 +205,8 @@ ul#menu
       margin-right: 2%;
       margin-left: 2%;
       grid-template-columns: 1fr 1fr;
+      
+
     }
   }
 
