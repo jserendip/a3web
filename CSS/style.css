@@ -665,3 +665,343 @@ margin-right: auto;
         font-size: medium;
 
       }
+
+
+
+
+      /*OurTeam Page */
+
+      .profilepage
+{  
+  width: auto;
+  height: 700px;
+  margin-left:auto;
+  margin-right: auto;
+  position: relative;
+  border: 0.5px solid #f2f6f8;
+  padding: 100px;
+} 
+@media screen and (max-width:1380px) {
+  .profilepage{
+    height: auto;
+    width: auto;
+    padding: 10%;
+    position:static;
+    height: 750%;
+ }
+
+}
+
+
+
+
+
+  #PhotoDP img{
+    position: absolute;
+    height: auto;
+    left:10%;
+    top:23%;
+    box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+   }
+   @media screen and (max-width:1380px) {
+    #PhotoDP  img{
+      position: relative;
+      max-width: 70%;
+      left:15%;
+      top:auto;
+    }
+  }
+
+ 
+  
+   #PhotoJS img{
+    position: absolute;
+    height: auto;
+    left:10%;
+    top:23%;
+    box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+   }
+   @media screen and (max-width:1380px) {
+    #PhotoJS img{
+      position: relative;
+      max-width: 70%;
+      top:auto;
+    }
+  }
+   #PhotoEH img{
+    position: absolute;
+    height: auto;
+    left:10%;
+    top:23%;
+    box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+   }
+   @media screen and (max-width:1380px) {
+    #PhotoEH img{
+      position: relative;
+      max-width: 70%;
+      top:auto;
+    }
+  }
+   #PhotoRE img{
+    position: absolute;
+    height: auto;
+    left:10%;
+    top:23%;
+    box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+   }
+   @media screen and (max-width:1380px) {
+    #PhotoRE img{
+      position: relative;
+      width: 70%;
+      top:auto;
+    }
+  }
+  .profile_text{
+    position: absolute;
+    left:  32%;
+    font-family: "arial", sans-serif;
+    font-size: 190%;
+    top:22%;
+    color: rgb(233, 229, 229);
+  }
+  @media screen and (max-width:1380px) {
+    .profile_text{
+      position: relative;
+      left: auto;
+      padding-right: 0%;
+      left: 0px;
+      font-size: 100%;
+
+      text-align: center;
+      
+    }
+  }
+
+
+ 
+  .profile_text p{
+    padding-right: 25%;
+    overflow:auto;
+  }
+
+  @media screen and (max-width:1380px) {
+    .profile_text p{
+      
+      height: auto;
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: #3738383a; /* Black w/opacity/see-through */
+      color: white;
+      font-size: 100%;
+      font-weight: normal;
+      border: 0px solid #f1f1f1;
+      box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+      top: 40%;
+      text-align: left;
+      height: 70%;
+      padding:10%
+    }
+  }
+
+
+ 
+
+  #panel, #flip {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    min-width: 100px;
+    left:10%;
+    top:64%;
+    text-align: center;
+    color: mediumblue;
+    font: 1.4em sans-serif;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffa64d;
+    border: solid 1px #c3c3c3;
+  }
+  @media screen and (max-width:1380px) {
+    #panel, #flip{
+      position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
+      
+    }
+  }
+  #panel {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    left:10%;
+    top:64%;
+    font: 1.7em sans-serif;
+    padding: 10px 5px 10px 5px;
+    display: none;
+  }
+  @media screen and (max-width:1380px) {
+    #panel{
+      position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
+    }
+  }
+  #panelJS, #flipJS {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    min-width: 100px;
+    left:10%;
+    top:64%;
+    text-align: center;
+    color: mediumblue;
+    font: 1.4em sans-serif;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffa64d;
+    border: solid 1px #c3c3c3;
+  }
+  @media screen and (max-width:1380px) {
+    #panelJS, #flipJS{
+      position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
+    }
+  }
+  #panelJS {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    left:10%;
+    top:64%;
+    font: 1.7em sans-serif;
+    padding: 10px 5px 10px 5px;
+    display: none;
+  }
+  @media screen and (max-width:1380px) {
+    #panelJS{
+      position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
+    }
+  }
+  #panelEH, #flipEH {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    min-width: 100px;
+    left:10%;
+    top:64%;
+    text-align: center;
+    color: mediumblue;
+    font: 1.4em sans-serif;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffa64d;
+    border: solid 1px #c3c3c3;
+  }
+  @media screen and (max-width:1380px) {
+    #panelEH, #flipEH{
+      position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
+    }
+  }
+  #panelEH {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    left:10%;
+    top:64%;
+    font: 1.7em sans-serif;
+    padding: 10px 5px 10px 5px;
+    display: none;
+  }
+  @media screen and (max-width:1380px) {
+    #panelEH{
+      position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
+      
+    }
+  }
+  #panelRE, #flipRE {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    min-width: 100px;
+    left:10%;
+    top:64%;
+    text-align: center;
+    color: mediumblue;
+    font: 1.4em sans-serif;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffa64d;
+    border: solid 1px #c3c3c3;
+  }
+  @media screen and (max-width:1380px) {
+    #panelRE, #flipRE{
+      position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
+      top:200%
+    }
+  }
+  #panelRE {
+    display: block;
+    position: absolute;
+    height: auto;
+    max-width: 15.5%;
+    left:10%;
+    top:64%;
+    font: 1.7em sans-serif;
+    padding: 10px 5px 10px 5px;
+    display: none;
+  }
+  @media screen and (max-width:1380px) {
+    #panelRE{
+      position: relative;
+      padding:0;
+      left: 0px;
+      max-width: fit-content;
+    }
+  }
+
+
+
+  #Raghad{
+    background: #0868acdf;
+  }
+
+  #David{
+    background: #7bccc4d7;
+  }
+
+  #James{
+    background: #4eb4d3df;
+  }
+  #Edyn{
+    background: #2b8dbedf;
+  }
+
+  h3{
+    font: 2em sans-serif;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #084081;
+  }
+
+  @media screen and (max-width:1380px) {
+    h3 {
+      font: 1.5em sans-serif;
+     }
+  }
