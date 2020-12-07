@@ -7,7 +7,7 @@
   position: relative;
   border: 0.5px solid #f2f6f8;
   padding: 100px;
-  /*z-index: -1*/
+ 
 } 
 @media screen and (max-width:1380px) {
   .profilepage{
