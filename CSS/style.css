@@ -462,10 +462,10 @@ margin-right: auto;
   padding: 0 25% 0 0;
 }
 
-/* David Census image change 11-24 @ 2:10 */
+/* David Census image change 11-24 @ 2:10 
 .contentp2 {
     float: right;
-} 
+} */
 
 /* Edyn footer position and text padding change 12-01 */
 #footer
@@ -570,11 +570,10 @@ margin-right: auto;
 }
 
 /*pojects Page*/
-    #banner2
+    .banner2
   {  
   height: auto;
   background: #7bccc4e3;
-  columns: 3;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: inherit;
@@ -585,29 +584,12 @@ margin-right: auto;
     }
     
 @media screen and (max-width:1100px) {
-  #banner2{
+  .banner2{
     display:block;
     columns:auto;
   }
 }
-#banner3
-{  /*background: transparent url(../images/torontoskyline2.png) no-repeat;*/
-height: auto;
-background: #7bccc4e3;
-columns: 3;
-display: flex;
-align-items: inherit;
-padding-left: 5%;
-padding-right: 5%;
-padding-top: 1%;
-padding-bottom: 1%;
-  }
-@media screen and (max-width:1100px) {
-#banner3{
-display:block;
-columns:auto;
-}
-}
+
   
       .Project-Photo img{
         width: 75%;
