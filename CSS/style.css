@@ -351,7 +351,12 @@ margin-right: auto;
 #footer p
 { line-height: 0.4em;
   padding: 10px 0 5px 0px;}
-
+  @media screen and (max-width:800px) {
+    #footer a, span{
+      display:none;
+      columns:auto;
+    }
+  }
 #footer a
 { color: #A8AA94;
 
