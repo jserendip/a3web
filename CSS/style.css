@@ -160,7 +160,7 @@ a, a:hover                             /* styling for shifting look of navbar bu
   
     @media screen and (max-width:560px) {
       #intro-content{
-        top: 40%;
+        top: 60%;
         width: 76%;
         overflow: scroll; /* If full text doesn't show, allows scroll */
         font-family: "arial", sans-serif;
@@ -172,7 +172,7 @@ a, a:hover                             /* styling for shifting look of navbar bu
         font-weight: normal;
         border: 0px solid #f1f1f1;
         box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
-        height: 75%;
+        height: 55%;
       }
     }
  /* end home page content box*/ 
@@ -189,8 +189,10 @@ a, a:hover                             /* styling for shifting look of navbar bu
       top:120%;
       width: fit-content;
       right: 0%;
-      padding-bottom: 20px;
+      padding-bottom: 1%;
       position: relative;
+      display: grid;
+    grid-template-columns: 1fr 1fr;
     }
   }
 /* end menu bar container design */
