@@ -1,6 +1,6 @@
 /*  CSS page for EHPS web page  -- all team members contrinuted */
 /* This CSS is adapted from an open source template: simple banner from https://www.html5webtemplates.co.uk */
-/* All Responsive Design elements shown are owned by DAvid Purdham */
+/* All Responsive Design elements shown are owned by David Purdham */
 /* Raghad Estanbouli is the CSS Controller - overseeing integration of all design CSS
 elements among contributing team members  -- individual elements design by other team
 members indicated by comments throughout */
@@ -23,7 +23,7 @@ p
 img
 { border: 0;}
 
-h1, h2, h3, h5, h6     /* heading style types */
+h1, h2, h3, h5   /* heading style types */
 { color: #362C20;
   letter-spacing: 0em;
   padding: 0 0 5px 0;}
@@ -51,7 +51,7 @@ h3
     text-shadow: 3px 3px 3px #084081;
   }
 
-  @media screen and (max-width:1380px) {
+  @media screen and (max-width:1380px) {   /* responsive design - David  */
     h5 {
       font: 1.5em sans-serif;
      }
@@ -79,72 +79,6 @@ a, a:hover                             /* styling for shifting look of navbar bu
 #main, #logo, #menubar, #site_content, #footer
 { margin-left: auto; 
   margin-right: auto;}
-
-#main{background-image: url(../images/HillShade.jpg) ;}
-
-
-#header
-{ position: relative;
-  background: #4b4b4b ;
-  height: auto;
-  top: 0;
-  padding: 2%;
-  width: auto;
-  }
-
-
-  #banner   
-  {  
-    width: auto;
-    height: 850px;
-    display: block;
-    background: #7bccc4e3;
-
-    
-    }
-
-    
-  
-    #site_content
-    { 
-      padding: 0px 0 0px 0;      /* this is the end of CSS adapted from open source template */
-    }
-
-  
-  #intro-content
-  { 
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: #575a5a5d; /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  z-index: 2;
-  width: 90%;
-  padding: 20px;
-  text-align: center;
-  height: auto;
-  } 
-  @media screen and (max-width:560px) {
-    #intro-content{
-      top: 40%;
-      width: 76%;
-      overflow: scroll; /* If full text doesn't show, allows scroll */
-      font-family: "arial", sans-serif;
-      height: auto;
-      background-color: rgb(0,0,0); /* Fallback color */
-      background-color: #3738383a; /* Black w/opacity/see-through */
-      color: white;
-      font-size: 110%;
-      font-weight: normal;
-      border: 0px solid #f1f1f1;
-      box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
-      height: 75%;
-    }
-  }
 
 
 #logo
@@ -181,6 +115,74 @@ a, a:hover                             /* styling for shifting look of navbar bu
   padding: 4px 0 0 0;
   color: #a8ddb5;}
 
+
+  #main{background-image: url(../images/HillShade.jpg) ;}   /* Raghad design element for background */
+
+
+  #header
+  { position: relative;
+    background: #4b4b4b ;
+    height: auto;
+    top: 0;
+    padding: 2%;
+    width: auto;
+    }
+  
+  
+  #banner   
+  {  
+    width: auto;
+    height: 850px;
+    display: block;
+    background: #7bccc4e3;
+  }
+  
+      
+    
+  #site_content
+  { 
+    padding: 0px 0 0px 0;      /* this is the end of CSS adapted from open source template */
+  }
+  
+    /* home page content text box - Raghad owns*/
+    #intro-content
+    { 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: #575a5a5d; /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    } 
+  
+    @media screen and (max-width:560px) {
+      #intro-content{
+        top: 40%;
+        width: 76%;
+        overflow: scroll; /* If full text doesn't show, allows scroll */
+        font-family: "arial", sans-serif;
+        height: auto;
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: #3738383a; /* Black w/opacity/see-through */
+        color: white;
+        font-size: 110%;
+        font-weight: normal;
+        border: 0px solid #f1f1f1;
+        box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+        height: 75%;
+      }
+    }
+ /* end home page content box*/ 
+
+ /* menu bar container from adapted from template: simple banner from https://www.html5webtemplates.co.uk */
 #menubar
 { top:80%;
   width: 100%;
@@ -194,59 +196,25 @@ a, a:hover                             /* styling for shifting look of navbar bu
       right: 0%;
       padding-bottom: 20px;
       position: relative;
-
     }
   }
+/* end menu bar container design */
 
-
-  @media screen and (max-width:560px) {
-    #menu{
-      display:grid;
-      margin-top: 50px;
-      margin-right: 2%;
-      margin-left: 2%;
-      grid-template-columns: 1fr 1fr;
-      padding-left: 0px;
-      padding-bottom: 10%;
-
-    }
-  }
-
-#menu 
-{ float: right;
-  padding: 0 0 0 0px;
-  margin: 1px 2px 0 0;
-  background: #575a5a5d;}
-
-#menu  a
-{ font: normal 100% 'trebuchet ms', sans-serif;
-  display: block; 
-  float: right; 
-  height: 20px;
-  padding: 6px 35px 5px 28px;
-  text-align: center;
-  color: #FFF;
-  text-decoration: none;
- 
-  background: #5A5A5A no-repeat 100% 0;} 
-
-
-  .navbar {
-    overflow: hidden;
-    background-color: #4b4b4b;
-  }
-  
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-/*Edyn Drop down bar 12/01 */
+/*Edyn owns navbar and dropdown items 12/01 */
 /* adapted from from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+.navbar {
+  overflow: hidden;
+  background-color: #4b4b4b;
+}
 
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 /* creates hidden dropdown container */  
   .dropdown {
     float: left;
@@ -307,28 +275,8 @@ a, a:hover                             /* styling for shifting look of navbar bu
     display: block;
   }
 
-
-
-
-#menu .selected a
-{ height: 20px;
-  padding: 6px 35px 5px 28px;}
-
-
-#menu .selected a
-{ 
-  color: #FFF;}
-
-
-#menu .selected a:hover
-{ 
-  color: #FFF;}
-
-#menu  a:hover
-{ color: #a8ddb5;}
-
 /* Owned by James Serendip - style for javascript button to return to top of page used 
-on Services and Our Team multipl scrolling pages button code adapted from w3schools */
+on Services and Our Team multiple scrolling pages button code adapted from w3schools */
 #topreturnBtn {
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -347,19 +295,9 @@ on Services and Our Team multipl scrolling pages button code adapted from w3scho
 #topreturnBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+/*end button styling */
 
-#test {
-  Display: none;
-}
-/* David editing page format 12/01/20 */
-
-#content
-{ text-align: left;
-  padding: 0 0 0 10px;
-  float: left;
-  width: 100%;
-  }
-
+/* David owns -editing page format for Services 12/01/20 */
 
   .center
   {   
@@ -409,21 +347,13 @@ margin-right: auto;
     width:100%;
   }
 }
+
+/* For design on Services page Raghad owns thsi section */
  .U-Container{
   background: #7bccc4d7;
   width: 100%;
   height: 1000px;
-  
  }
-
-
-
-
-
-
-
-
-
 
  .U-Container p{
   color:#f7f2f2;
@@ -438,19 +368,11 @@ margin-right: auto;
 
  }
 
-
  @media screen and (max-width: 800px){
   .U-Container p{
     font-size: 100%;}
  
   }
-
-
-
-
-
-
-
 
  .U-Container p:hover{
   color:#f7f2f2;
@@ -482,7 +404,6 @@ margin-right: auto;
   height: 1000px;
  }
 
-
  .S-Container p{
   color:#f7f2f2;
   font-family: "arial", sans-serif;
@@ -493,21 +414,13 @@ margin-right: auto;
   margin: 1%;
   overflow: auto;
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
-  
  }
 
  @media screen and (max-width: 800px){
   .S-Container p{
     font-size: 100%;
     overflow: scroll;}
- 
   }
-.contentp1
-{float: right;
-  padding: 0 25% 0 0;
-}
-
-
 
 /* Edyn footer position and text padding change 12-01 */
 #footer
@@ -563,62 +476,58 @@ margin-right: auto;
 }
 
   
-      .Project-Photo img{
-        width: 75%;
-        position: relative;
-        margin-left: 12%;
-        margin-right: 12%;
-        padding-top: 10%;
-        
+.Project-Photo img{
+  width: 75%;
+  position: relative;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding-top: 10%;
+}
 
-      }
-      
-      .ProjectSection{
+.ProjectSection{
+  background: #1920201a;
+  border: 1px solid #e5e5db91;
+  margin-left: 1%;
+  margin-right: 1%;
+}
 
-        background: #1920201a;
-        border: 1px solid #e5e5db91;
-        margin-left: 1%;
-        margin-right: 1%;
-      }
-
-      @media screen and (max-width:1380px) {
-        .ProjectSection{
-          margin-left: 0%;
-          margin-right: 0%;
-        }
-      }
+@media screen and (max-width:1380px) {
+  .ProjectSection{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
 
 
 
-      .ProjectSection:hover{
-        
-        box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
-      }
+.ProjectSection:hover{
+  
+  box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+}
 
+.project_text p{
+  padding-right: 12%;
+  padding-left: 12%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+@media screen and (max-width:1380px) {
+  .project_text p{
+    font-family: "arial", sans-serif;
+    height: auto;
     
-      .project_text p{
-        padding-right: 12%;
-        padding-left: 12%;
-        padding-bottom: 5%;
-        text-align: center;
-      }
-
-      @media screen and (max-width:1380px) {
-        .project_text p{
-          font-family: "arial", sans-serif;
-          height: auto;
-          
-          color: white;
-          font-weight: normal;
-          border: 0px solid #f1f1f1;
-          top: 10%;
-          text-align: center;
-          height: auto;
-          padding-right: 12%;
-          padding-left: 12%;
-          padding-bottom: 12%;
-        }
-      }
+    color: white;
+    font-weight: normal;
+    border: 0px solid #f1f1f1;
+    top: 10%;
+    text-align: center;
+    height: auto;
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-bottom: 12%;
+  }
+}
 
 
       h6{
