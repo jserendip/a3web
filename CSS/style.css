@@ -1,6 +1,10 @@
 /*  CSS page for EHPS web page  -- all team members contrinuted */
+
+/* All Responsive Design elements shown are owned by David Purdham inspired by w3schools*/
+
 /* This CSS is adapted from an open source template: simple banner from https://www.html5webtemplates.co.uk */
 /* All Responsive Design elements shown are owned by David Purdham */
+
 /* Raghad Estanbouli is the CSS Controller - overseeing integration of all design CSS
 elements among contributing team members  -- individual elements design by other team
 members indicated by comments throughout */
@@ -43,6 +47,11 @@ h3
 { font-size: 140%;
   padding: 5px 0 0 0;}
 
+h4, h6
+{ color: #009FBC;
+  padding: 0 0 5px 0;
+  font: normal 110% arial;
+  text-transform: uppercase;}
 
 
   h5{
@@ -75,10 +84,87 @@ a, a:hover                             /* styling for shifting look of navbar bu
   color: #AEB002;}
 
 
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+
 
 #main, #logo, #menubar, #site_content, #footer
 { margin-left: auto; 
   margin-right: auto;}
+
+#main{background-image: url(../images/HillShade.jpg) ;}
+
+
+#header
+{ position: relative;
+  background: #4b4b4b ;
+  height: auto;
+  top: 0;
+  padding: 2%;
+  width: auto;
+  }
+
+
+  #banner
+  {  
+    width: auto;
+    height: 850px;
+    display: block;
+    background: #7bccc4e3;
+
+    
+    }
+
+    
+  
+    #site_content
+    { 
+      padding: 0px 0 0px 0;      /* this is the end of CSS adapted from open source template */
+    }
+
+  
+  #intro-content
+  { 
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: #575a5a5d; /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+  height: auto;
+  } 
+  @media screen and (max-width:560px) {
+    #intro-content{
+      top: 40%;
+      width: 76%;
+      overflow: scroll; /* If full text doesn't show, allows scroll */
+      font-family: "arial", sans-serif;
+      height: auto;
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: #3738383a; /* Black w/opacity/see-through */
+      color: white;
+      font-size: 110%;
+      font-weight: normal;
+      border: 0px solid #f1f1f1;
+      box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.418);
+      height: 75%;
+    }
+  }
 
 
 #logo
@@ -676,7 +762,7 @@ margin-right: auto;
 
 
  
-
+/* information panel settings all the same for each group member, owned by Raghad*/
   #panel, #flip {
     display: block;
     position: absolute;
@@ -692,6 +778,7 @@ margin-right: auto;
     background-color: #ffa64d;
     border: solid 1px #c3c3c3;
   }
+  /* Responsive design for all information panels are the same and owned by David*/
   @media screen and (max-width:1380px) {
     #panel, #flip{
       position: relative;
@@ -850,7 +937,7 @@ margin-right: auto;
   }
 
 
-
+/* Background colours created by Raghad*/
   #Raghad{
     background: #0868acdf;
   }
@@ -866,3 +953,14 @@ margin-right: auto;
     background: #2b8dbedf;
   }
 
+  h3{
+    font: 2em sans-serif;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #084081;
+  }
+
+  @media screen and (max-width:1380px) {
+    h3 {
+      font: 1.5em sans-serif;
+     }
+  }
