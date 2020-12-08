@@ -74,24 +74,6 @@ a, a:hover                             /* styling for shifting look of navbar bu
   text-decoration: underline;
   color: #AEB002;}
 
-a:hover
-{ text-decoration: none;}
-
-
-ul
-{ margin: 2px 0 22px 17px;}
-
-ul li
-{ list-style-type: circle;
-  margin: 0 0 6px 0; 
-  padding: 0 0 4px 5px;
-  line-height: 1.5em;}
-
-ol
-{ margin: 8px 0 22px 20px;}
-
-ol li
-{ margin: 0 0 11px 0;}
 
 
 #main, #logo, #menubar, #site_content, #footer
@@ -174,7 +156,7 @@ ol li
 #logo #logo_text 
 { position: absolute; 
   top: 10px;
-  left: 0;}
+  left: 23%;}
 
 #logo h1, #logo h2
 { font: normal 300% 'century gothic', arial, sans-serif;
@@ -217,14 +199,8 @@ ol li
   }
 
 
-
-
-ul#menu
-{ float: right;
-  margin: 0;}
-
   @media screen and (max-width:560px) {
-    ul#menu{
+    #menu{
       display:grid;
       margin-top: 50px;
       margin-right: 2%;
@@ -236,17 +212,16 @@ ul#menu
     }
   }
 
-ul#menu li
-{ float: left;
+#menu 
+{ float: right;
   padding: 0 0 0 0px;
-  list-style: none;
   margin: 1px 2px 0 0;
-  background: #5A5A5A;}
+  background: #575a5a5d;}
 
-ul#menu li a
+#menu  a
 { font: normal 100% 'trebuchet ms', sans-serif;
   display: block; 
-  float: left; 
+  float: right; 
   height: 20px;
   padding: 6px 35px 5px 28px;
   text-align: center;
@@ -255,21 +230,85 @@ ul#menu li a
  
   background: #5A5A5A no-repeat 100% 0;} 
 
-ul#menu li.selected a
+
+  .navbar {
+    overflow: hidden;
+    background-color: #4b4b4b;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #7BCCC4;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+#menu .selected a
 { height: 20px;
   padding: 6px 35px 5px 28px;}
 
 
-ul#menu li.selected a
+#menu .selected a
 { 
   color: #FFF;}
 
 
-ul#menu li.selected a:hover
+#menu .selected a:hover
 { 
   color: #FFF;}
 
-ul#menu li a:hover
+#menu  a:hover
 { color: #a8ddb5;}
 
 /* Owned by James Serendip - style for javascript button to return to top of page used 
@@ -489,24 +528,25 @@ margin-right: auto;
 /*Edyn Drop down bar 12/01 */
 /* adapted from from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 /* creates hidden dropdown container */
-.dropdown
-{ float: left;
-  overflow: hidden;}
+
 
 
   
 
   @media screen and (max-width:1100px) {
-    .dropdown button{
+    .dropbtn  button{
       width: 50%;
      padding: 0px 0px 0px 0px;
      white-space: nowrap;
     }
   }
 
-/* sets style for the dropdown categories, including color, padding, font and height */
-.dropdown .dropbtn {
-  
+/*
+
+/* sets style for the dropdown categories, including color, padding, font and height 
+ .dropdown .dropbtn {
+  float: left;
+  overflow: hidden;
   height: 31px;
   font-size: 86%;
   border: none;
@@ -515,12 +555,13 @@ margin-right: auto;
   width:fit-content;
   padding: 6px 35px 10px 28px;
   background-color: inherit;
-  font-family: inherit; /* Important for alignment on mobile phones */
-  margin: 0; /* Important for alignment on mobile phones */
+  font-family: inherit;  Important for alignment on mobile phones 
+  margin: 0;  Important for alignment on mobile phones 
 }
 
-/* Dropdown content (hidden by default, only appears when navbar block is hovered over) */
+// Dropdown content (hidden by default, only appears when navbar block is hovered over) 
 .dropdown-content {
+
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -537,7 +578,7 @@ margin-right: auto;
   }
 }
 
-/* Stylizes Links inside the dropdown by making them list vertically, making the font black, and applying padding */
+// Stylizes Links inside the dropdown by making them list vertically, making the font black, and applying padding 
 .dropdown-content a {
   float: none;
   color: black;
@@ -547,15 +588,17 @@ margin-right: auto;
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
+// Add a grey background color to dropdown links on hover 
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+// Show the dropdown menu on hover 
+.dropdown:hover .dropdown-content{
   display: block;
 }
+
+*/
 
 /*pojects Page*/
     .banner2
