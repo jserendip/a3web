@@ -163,10 +163,6 @@ ol li
   }
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> c3be83622d7956da98d448587d2bf68c6b908da3
 #logo
 { width: 880px;
   position: relative;
@@ -788,7 +784,7 @@ margin-right: auto;
 
 
  
-
+/* information panel settings all the same for each group member, owned by Raghad*/
   #panel, #flip {
     display: block;
     position: absolute;
@@ -804,6 +800,7 @@ margin-right: auto;
     background-color: #ffa64d;
     border: solid 1px #c3c3c3;
   }
+  /* Responsive design for all information panels are the same and owned by David*/
   @media screen and (max-width:1380px) {
     #panel, #flip{
       position: relative;
@@ -962,7 +959,7 @@ margin-right: auto;
   }
 
 
-
+/* Background colours created by Raghad*/
   #Raghad{
     background: #0868acdf;
   }
