@@ -1,17 +1,16 @@
-<!-- scrolling page that will highlight service offered and industries supported -->
+<!-- scrolling page that will highlight services offered and industries supported -->
 <!DOCTYPE HTML>
 <!-- This site is designed around  open source template simple banner from https://www.html5webtemplates.co.uk -->
 <!-- They request we leave their footer link for attribution -->
 <html lang=en>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsive screen inspired by w3schools-->
   <title>EHPS Consulting</title>
   <meta name="keywords" content="GIS, Data Management, Remote Sensing, Cartography, GIS Applications" />
   <link rel="stylesheet" type="text/css" href="CSS/style.css" />
   <script src="js/jscode.js"> </script>
 </head>
-<!--1:46pm Edyn-->
 <body>
   <div id="main">
     <div id="header">
@@ -24,43 +23,43 @@
         </div>
       </div> <!-- ends logo settings -->
 	    
-      <div id="menubar">
-        <ul id="menu">
-          <li><a href="index.html">Home</a></li>
-            <div class="dropdown">
-              <li><button class="dropbtn">Services</button></li>
-              <div class="dropdown-content">            <!--Dropdown menu that references each service page on the 'Services page' -->
-                <a href="#Urban">Urban Services</a>
-                <a href="#Env">Environmental Services</a>
+       <!--Edyn Hillman owns the following menubar section-->
+       <div id="menubar">
+        <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+              <div class="dropdown">
+                <button class="dropbtn">Services</button>
+                <div class="dropdown-content">            <!--Dropdown menu that references each service page on the 'Services page' -->
+                <a href="services.html#Urban">Urban Services</a>
+                <a href="services.html#Env">Environmental Services</a>
+                </div>
               </div>
-            </div>
-          <li><a href="projects.html">Projects</a></li>
-            <div class = "dropdown"> 
-              <li><button class="dropbtn">Our Team        <!--Dropdown menu that references each profile on the 'Our Team' page-->
-                </button></li>
-              <div class="dropdown-content">
+              <div class="dropdown">
+                <button class="dropbtn">Our Team</button>        <!--Dropdown menu that references each profile on the 'Our Team' page-->
+                <div class="dropdown-content">
                 <a href="ourteam.html#DavidsProfile">David Purdham</a>
                 <a href="ourteam.html#JamesProfile">James Serendip</a>
                 <a href="ourteam.html#EdynsProfile">Edyn Hillman</a>
                 <a href="ourteam.html#RaghadsProfile">Raghad Estanbouli</a>
+                </div>
               </div>
-            </div> 
-        </ul>
-      </div>  <!--ends menu bar setting --> 
+               
+        </div>
+      </div>  <!--ends menu bar setting -->  
 	    
     </div> <!-- ends header section -->
    
-    <!-- insert the page content here -->
-    <div class="U-Container">
-    <a id="Urban">
+    <div class="U-Container"  id="Urban">
+
     <h1 class=center>Urban Services</h1>
-    
+    <!-- Stock image of a city found and resized by Edyn -->
     <div class = "servicesimg">
       <img src= "images/urbanserv.jpg" alt="image of city skyline" id="urbservices" class="imgresponsive">
       </div>
-    </a>
-    <!-- Insert image here-->
-    <div class=pcenter>
+
+    
+    <div class=pcenter> <!--Urban services provided by our consulting company written by David-->
       <p>Urban planning services are provided to help developers and planners gather the right data to assist their decision
         making process. This includes gathering land use data, road segments, waterways, pipes, hydro wires, etc. and displaying
       the data in a comprehensive map.</p>
@@ -74,29 +73,30 @@
       </p>
       </div>
     </div>
+ <!-- Sets background colour, width and height for second page-->
   <div class="break"></div>
-    <a id="Env">
-    <div class="S-Container">
-      <h1 class=center>Environmental Services</h1>
-    
-    <!-- Insert image here-->
-    <div class = "servicesimg">
-    <img src= "images/whistler_environmentalservices(1).jpg" alt="image of mountain lake" id="envservices" class="imgresponsive">
-    </div>
-    </a>
-    <div class=pcenter>
+   
+      <div class="S-Container" id ="Env">
+        <h1 class=center>Environmental Services</h1>
+      
+      <!-- Stock image of lake in whistler representing environmental services(Edyn)-->
+        <div class = "servicesimg">
+        <img src= "images/whistler_environmentalservices(1).jpg" alt="image of mountain lake" id="envservices" class="imgresponsive">
+        </div>
+   
+    <div class=pcenter> <!--descriptions of services offered(written by Edyn)-->
       <p>Environmental Impact Analysis- Using spatial analysis and geovisualization we can analyze the impacts of construction,
         roads, pipelines, and other activities that are potentially harmful to the environment. We are available to help inform natural resource policies and predict future impacts.
       </p>
       <p>Land cover Analysis- We are available to create maps and accurate depictions of boundaries between land cover types as well as land use
-        through the use of Remote sensing and spatial analysis. This can be used to help inform conservation decisions, show wildlife habitat, and estimate where land cover changes
+        through the use of remote sensing and spatial analysis. This can be used to help inform conservation decisions, show wildlife habitat, and estimate where land cover changes
         are likely.
       </p>
       <p>Forest Fire Management- With the use of remote sensing imagery, spatial analysis, and geovisualization we are able to effectively map areas of concern, 
         nearby water sources, potential environmental impacts, and create simulations of fire outbreaks. </p>
       </div>
     </div>
-    <button onclick="topFunction()" id="topreturnBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="topreturnBtn" title="Go to top">Top</button> <!--button that allows user to jump back to the top of the page-->
   </div>
      <!-- footer-->
      <div id="footer">
