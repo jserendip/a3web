@@ -26,29 +26,30 @@
             </div>
           </div> <!-- ends logo settings -->
           
-          <div id="menubar">
-            <ul id="menu">
-              <li><a href="index.html">Home</a></li>
-                <div class="dropdown">
-                  <li><button class="dropbtn">Services</button></li>
-                  <div class="dropdown-content">
-                    <a href="services.html#Urban">Urban Services</a>
-                    <a href="services.html#Env">Environmental Services</a>
-                  </div>
+       <!--Edyn Hillman owns the following menubar section-->
+       <div id="menubar">
+        <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+              <div class="dropdown">
+                <button class="dropbtn">Services</button>
+                <div class="dropdown-content">            <!--Dropdown menu that references each service page on the 'Services page' -->
+                <a href="services.html#Urban">Urban Services</a>
+                <a href="services.html#Env">Environmental Services</a>
                 </div>
-              <li><a href="projects.html">Projects</a></li>
-                <div class = "dropdown"> 
-                  <li><button class="dropbtn">Our Team        <!--Dropdown menu that references each profile page on the 'Our Team' page locally-->
-                    </button></li>
-                  <div class="dropdown-content">
-                    <a href="#DavidsProfile">David Purdham</a>
-                    <a href="#JamesProfile">James Serendip</a>
-                    <a href="#EdynsProfile">Edyn Hillman</a>
-                    <a href="#RaghadsProfile">Raghad Estanbouli</a>
-                  </div>
-                </div> 
-            </ul>
-          </div>  <!--ends menu bar setting --> 
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Our Team</button>        <!--Dropdown menu that references each profile on the 'Our Team' page-->
+                <div class="dropdown-content">
+                <a href="ourteam.html#DavidsProfile">David Purdham</a>
+                <a href="ourteam.html#JamesProfile">James Serendip</a>
+                <a href="ourteam.html#EdynsProfile">Edyn Hillman</a>
+                <a href="ourteam.html#RaghadsProfile">Raghad Estanbouli</a>
+                </div>
+              </div>
+               
+        </div>
+      </div>  <!--ends menu bar setting -->  
         <script> 
             $(document).ready(function(){
               $("#flip").click(function(){
