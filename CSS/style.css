@@ -244,12 +244,15 @@ a, a:hover                             /* styling for shifting look of navbar bu
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+/*Edyn Drop down bar 12/01 */
+/* adapted from from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+
+/* creates hidden dropdown container */  
   .dropdown {
     float: left;
     overflow: hidden;
   }
-  
+/* sets style for the dropdown categories, including color, padding, font and height  */  
   .dropdown .dropbtn {
     font-size: 16px;  
     border: none;
@@ -264,7 +267,7 @@ a, a:hover                             /* styling for shifting look of navbar bu
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #7BCCC4;
   }
-  
+/* Dropdown content (hidden by default, only appears when navbar block is hovered over)  */  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -273,7 +276,20 @@ a, a:hover                             /* styling for shifting look of navbar bu
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+/* for responsive design for phones etc. */
+  @media screen and (max-width:1100px) {
+    .dropdown-content{
+      top: 575%;}
+    }
+    @media screen and (max-width:1100px) {
+      .dropbtn  button{
+        width: 50%;
+       padding: 0px 0px 0px 0px;
+       white-space: nowrap;
+      }
+    }
+
+  /* Stylizes Links inside the dropdown by making them list vertically, making the font black, and applying padding */
   .dropdown-content a {
     float: none;
     color: black;
@@ -282,11 +298,11 @@ a, a:hover                             /* styling for shifting look of navbar bu
     display: block;
     text-align: left;
   }
-  
+  /* Add a grey background color to dropdown links on hover  */
   .dropdown-content a:hover {
     background-color: #ddd;
   }
-  
+  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -524,81 +540,6 @@ margin-right: auto;
 #footer a:hover
 { color: #FFF;
   text-decoration: none;}
-
-/*Edyn Drop down bar 12/01 */
-/* adapted from from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
-/* creates hidden dropdown container */
-
-
-
-  
-
-  @media screen and (max-width:1100px) {
-    .dropbtn  button{
-      width: 50%;
-     padding: 0px 0px 0px 0px;
-     white-space: nowrap;
-    }
-  }
-
-/*
-
-/* sets style for the dropdown categories, including color, padding, font and height 
- .dropdown .dropbtn {
-  float: left;
-  overflow: hidden;
-  height: 31px;
-  font-size: 86%;
-  border: none;
-  outline: none;
-  color: white;
-  width:fit-content;
-  padding: 6px 35px 10px 28px;
-  background-color: inherit;
-  font-family: inherit;  Important for alignment on mobile phones 
-  margin: 0;  Important for alignment on mobile phones 
-}
-
-// Dropdown content (hidden by default, only appears when navbar block is hovered over) 
-.dropdown-content {
-
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: fit-content;
-  box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
-  z-index: 3;
-  top: 88%;
-}
-
-@media screen and (max-width:1100px) {
-  .dropdown-content{
-    top: 575%;
-    
-  }
-}
-
-// Stylizes Links inside the dropdown by making them list vertically, making the font black, and applying padding 
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-// Add a grey background color to dropdown links on hover 
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-// Show the dropdown menu on hover 
-.dropdown:hover .dropdown-content{
-  display: block;
-}
-
-*/
 
 /*pojects Page*/
     .banner2

@@ -16,13 +16,6 @@ function oldsat() {
     document.getElementById("satimage").src = "images/ricelakeuncorrected.JPG";
 }
 
-/* function to show legend on poplation density map  -- James Serendip owns this code */
-function showleg() {
-  "use strict";
-    document.getElementById("legend").src = "images/ricelakeuncorrected.JPG";
-}
-/* return to top of screen button (adapted from w3schools): -- James Serendip owns this code */
-var mybutton = document.getElementById("topreturnBtn");
 
 
 /* When the user clicks on the button, scroll to the top of the document -- James Serendip owns this code */
